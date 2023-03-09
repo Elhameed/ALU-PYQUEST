@@ -121,5 +121,25 @@ PROBLEM_SETS = [
             "d": "myFunction():"
         },
         "answer": "b"
-    }
+    },
+     {
+             "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
+             "options": {
+                 "a": "Less than 3",
+                 "b": "Greater than or equal to 3",
+                 "c": "syntax error",
+                 },
+             "answer": "a"
+             },
+            {
+             "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
+             "options": {
+                 "a": "Hello Adam",
+                 "": "Hello",
+                 "c": "sybntax error"
+                 },
+             "answer": "a"
+             },
+
+
 ]
