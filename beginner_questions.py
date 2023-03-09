@@ -122,7 +122,16 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-
+    {
+        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "options": {
+            "a": " they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution"
+        },
+        "answer": "a"
+    },
      {
              "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
              "options": {
