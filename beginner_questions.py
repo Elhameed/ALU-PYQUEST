@@ -122,6 +122,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
+
      {
              "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
              "options": {
@@ -140,6 +141,38 @@ PROBLEM_SETS = [
                  },
              "answer": "a"
              },
+
+
+    {
+        "question": "What keyword would you use to add an alternative condition to an if statement?",
+        "options": {
+            "a": "else if",
+            "b": "elseif",
+            "c": "elif",
+            "d": "None of the above"
+        },
+        "answer": "c"
+    },
+    {
+            "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
+        "options": {
+            "a": "66\n 0",
+            "b": "36\n 0",
+            "c": "66\n 3",
+            "d": "36\n 3"
+        },
+        "answer": "d"
+    },
+    {
+            "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
+        "options": {
+            "a": "Hi",
+            "b": "Hello",
+            "c": "Know Program",
+            "d": "Compiled successfully, No output"
+        },
+        "answer": "b"
+    }
 
 
 ]
