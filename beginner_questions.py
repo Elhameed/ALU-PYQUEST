@@ -132,47 +132,45 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-     {
-             "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
-             "options": {
-                 "a": "Less than 3",
-                 "b": "Greater than or equal to 3",
-                 "c": "syntax error",
-                 },
-             "answer": "a"
-             },
-            {
-             "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
-             "options": {
-                 "a": "Hello Adam",
-                 "": "Hello",
-                 "c": "sybntax error"
-                 },
-             "answer": "a"
-             },
-
-
     {
-"question": "What will be the output of the following code?\nx = 10\nif x > 5:\n print('x is greater than 5')\nelse:\n print('x is less than or equal to 5')",
-"options": {
-"a": "x is greater than 5",
-"b": "x is less than or equal to 5",
-"c": "Syntax error",
-"d": "None of the above"
-},
-"answer": "a"
-}
-
-{
-"question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
-"options": {
-"a": "Age is between 18 and 26",
-"b": "Age is between 18 and 25",
-"c": "Syntax error",
-"d": "None of the above"
-},
-"answer": "b"
-}
+        "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
+        "options": {
+            "a": "Less than 3",
+            "b": "Greater than or equal to 3",
+            "c": "syntax error",
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
+        "options": {
+            "a": "Hello Adam",
+            "b": "Hello",
+            "c": "sybntax error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What will be the output of the following code?\nx = 10\nif x > 5:\n print('x is greater than 5')\nelse:\n print('x is less than or equal to 5')",
+        "options": {
+            "a": "x is greater than 5",
+            "b": "x is less than or equal to 5",
+            "c": "Syntax error",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    }
+    {
+        "question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
+        "options": {
+            "a": "Age is between 18 and 26",
+            "b": "Age is between 18 and 25",
+            "c": "Syntax error",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    }
+    {
         "question": "What keyword would you use to add an alternative condition to an if statement?",
         "options": {
             "a": "else if",
@@ -183,7 +181,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-            "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
+        "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
         "options": {
             "a": "66\n 0",
             "b": "36\n 0",
@@ -193,7 +191,7 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-            "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
+        "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
         "options": {
             "a": "Hi",
             "b": "Hello",
