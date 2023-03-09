@@ -4,7 +4,7 @@
 PROBLEM_SETS = [
     {
         "question": "Which of the following is a correct way to declare a variable in Python?\n",
-        "options": {
+        "option": {
             "a": "1var = 'Hello World'",
             "b": "var-1 = 'Hello World'",
             "c": "var_1 = 'Hello World'",
