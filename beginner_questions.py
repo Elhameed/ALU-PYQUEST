@@ -121,5 +121,26 @@ PROBLEM_SETS = [
             "d": "myFunction():"
         },
         "answer": "b"
-    }
+    },
+    {
+"question": "What will be the output of the following code?\nx = 10\nif x > 5:\n print('x is greater than 5')\nelse:\n print('x is less than or equal to 5')",
+"options": {
+"a": "x is greater than 5",
+"b": "x is less than or equal to 5",
+"c": "Syntax error",
+"d": "None of the above"
+},
+"answer": "a"
+}
+
+{
+"question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
+"options": {
+"a": "Age is between 18 and 26",
+"b": "Age is between 18 and 25",
+"c": "Syntax error",
+"d": "None of the above"
+},
+"answer": "b"
+}
 ]
