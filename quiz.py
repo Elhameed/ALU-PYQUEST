@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#create a string containing rules and guidelines
+# Define the game rules and guidelines as a string variable:
 RULES = """
 Welcome to ALU PyQuest!
 
@@ -13,11 +13,11 @@ For each correct answer, you will earn 10 points, and for each incorrect answer 
 At the end of the game, your total score will be displayed. Good luck!
 """
 
-#define a function to play game
+# Define a function to play game
 def playgame():
     print(RULES)
-    readytostart = input("Are you ready to start the game? Enter(yes/no): ")
-    if readytostart == "yes":
+    ready = input("Are you ready to start the game? Enter(yes/no): ")
+    if ready.lower() == "yes":
         print("\nGreat! Let's start the game. \n")
     else:
         print("\nNo problem. See you again!\n")
