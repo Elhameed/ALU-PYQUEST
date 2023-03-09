@@ -121,5 +121,15 @@ PROBLEM_SETS = [
             "d": "myFunction():"
         },
         "answer": "b"
-    }
+    },
+    {
+        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "options": {
+            "a": " they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution"
+        },
+        "answer": "a"
+    },
 ]
