@@ -161,17 +161,18 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-     {
-        "question": "What will be the output of the following Python code?
-
-class change:
-    def __init__(self, x, y, z):
-        self.a = x + y + z
- 
-x = change(1,2,3)
-y = getattr(x, 'a')
-setattr(x, 'a', y+1)
-print(x.a)",
+    {
+        "question": "What will be the output of the following Python program?\n\ni = 0\nwhile i < 5:\n\tprint(i)\ni += 1\nif i == 3:\n\tbreak\nelse:\n\tprint(0)",
+        "options": {
+            "a": "error",
+            "b": "0 1 2 0",
+            "c": "0 1 2",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n\nclass change:\n\tdef __init__(self, x, y, z):\n\tself.a = x + y + z\n\tx = change(1,2,3)\n\ty = getattr(x, 'a')\n\tsetattr(x, 'a', y+1)\n\tprint(x.a)",
         "options": {
             "a": "6",
             "b": "7",
@@ -179,5 +180,5 @@ print(x.a)",
             "d": "Error"
         },
         "answer": "b"
-    },
+    }
 ]
