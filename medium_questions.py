@@ -150,5 +150,96 @@ PROBLEM_SETS = [
             "d": "from my_module import *"
         },
         "answer": "c"
-    }
+    },
+    {
+        "question": "Which one of the following data structures in python in immutable?",
+        "options": {
+            "a": "Tuple",
+            "b": "Set",
+            "c": "Dictionary",
+            "d": "List"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code set([1, 2, 3, 2, 1])?",
+        "options": {
+            "a": "set([1, 2, 3])",
+            "b": "set[1, 2, 3, 2, 1]",
+            "c": "{1, 2, 3, 2, 1}",
+            "d": "{1, 2, 3}"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Which of the following data structure in python does not allow duplicates?",
+        "options": {
+            "a": "Tuple",
+            "b": "Set",
+            "c": "Dictionary",
+            "d": "List"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following is true about dictionaries in python?",
+        "options": {
+            "a": "Dictionaries are ordered",
+            "b": "Dictionaries can have duplicate keys",
+            "c": "Dictionaries can have mutable values",
+            "d": "Dictionaries can be accessed using any index"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the output of the following code dict(zip(['a', 'b', 'c'], [1, 2, 3]))?",
+        "options": {
+            "a": "{'a': 1, 'b': 2, 'c': 3}",
+            "b": "{1: 'a', 2: 'b', 3: 'c'}",
+            "c": "[('a', 1), ('b', 2), ('c', 3)]",
+            "d": "{(1, 'a'), (2, 'b'), (3, 'c')}"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following method can be used to add an item to a set?",
+        "options": {
+            "a": "add()",
+            "b": "append()",
+            "c": "extend()",
+            "d": "insert()"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following methods can be used to remove an item from a set?",
+        "options": {
+            "a": "remove()",
+            "b": "pop()",
+            "c": "delete()",
+            "d": "discard()"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is true about tuple in python?",
+        "options": {
+            "a": "Tuple can be modified after creation",
+            "b": "Tuple can be used as key in a dictionary",
+            "c": "Tuple can be accessed using an index",
+            "d": "Tuple can have duplicate"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following methods can be used to open a file in python for writing?",
+        "options": {
+            "a": "open('filename.txt', 'r')",
+            "b": "open('filename.txt', 'w')",
+            "c": "open('filename.txt', 'a')",
+            "d": "open('filename.txt', 'x')"
+        },
+        "answer": "b"
+    },
+
 ]
