@@ -150,5 +150,34 @@ PROBLEM_SETS = [
             "d": "from my_module import *"
         },
         "answer": "c"
-    }
+    },
+     {
+        "question": "What is setattr() used for?",
+        "options": {
+            "a": "To access the attribute of the object",
+            "b": "To set an attribute",
+            "c": "To check if an attribute exists or not",
+            "d": "To delete an attribute"
+        },
+        "answer": "b"
+    },
+     {
+        "question": "What will be the output of the following Python code?
+
+class change:
+    def __init__(self, x, y, z):
+        self.a = x + y + z
+ 
+x = change(1,2,3)
+y = getattr(x, 'a')
+setattr(x, 'a', y+1)
+print(x.a)",
+        "options": {
+            "a": "6",
+            "b": "7",
+            "c": "0",
+            "d": "Error"
+        },
+        "answer": "b"
+    },
 ]
