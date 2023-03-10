@@ -122,4 +122,14 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
+    {
+        "question": "Which of the following statements is true about Python's asyncio library?",
+        "options": {
+            "a": "It allows multiple threads to execute in parallel",
+            "b": "It is used for parallel processing of CPU-bound tasks",
+            "c": "It is based on the concept of coroutines",
+            "d": "It is not compatible with Python 3"
+        },
+        "answer": "c"
+    }
 ]

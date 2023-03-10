@@ -150,5 +150,35 @@ PROBLEM_SETS = [
             "d": "from my_module import *"
         },
         "answer": "c"
+    },
+     {
+        "question": "What is setattr() used for?",
+        "options": {
+            "a": "To access the attribute of the object",
+            "b": "To set an attribute",
+            "c": "To check if an attribute exists or not",
+            "d": "To delete an attribute"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What will be the output of the following Python program?\n\ni = 0\nwhile i < 5:\n\tprint(i)\ni += 1\nif i == 3:\n\tbreak\nelse:\n\tprint(0)",
+        "options": {
+            "a": "error",
+            "b": "0 1 2 0",
+            "c": "0 1 2",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n\nclass change:\n\tdef __init__(self, x, y, z):\n\tself.a = x + y + z\n\tx = change(1,2,3)\n\ty = getattr(x, 'a')\n\tsetattr(x, 'a', y+1)\n\tprint(x.a)",
+        "options": {
+            "a": "6",
+            "b": "7",
+            "c": "0",
+            "d": "Error"
+        },
+        "answer": "b"
     }
 ]
