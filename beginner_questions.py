@@ -151,6 +151,75 @@ PROBLEM_SETS = [
             "d": "Compiled successfully, No output"
         },
         "answer": "b"
+    },
+    {
+        "question": "Select the correct output of the following String operations\nstr1 = 'Welcome'\nprint (str1[:6] + ' John')",
+        "options": {
+            "a": "Welcome John",
+            "b": "WelcomJohn",
+            "c": "Welcom John",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Guess the correct output of the following String operations\nstr1 = 'Welcome'\nprint(str1*2)",
+        "options": {
+            "a": "WelcomeWelcome",
+            "b": "TypeError unsupported operand type(s)",
+            "c": "Welcome",
+            "d": "Welcome2"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following\nl = [None] * 10\nprint(len(l))",
+        "options": {
+            "a": "10",
+            "b": "0",
+            "c": "Syntax Error"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following would give an error?",
+        "options": {
+            "a": "list1 = []",
+            "b": "list1 = [] * 3",
+            "c": "list1 = [2, 8, 7]",
+            "d": "None of the above"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Suppose list1 is [1, 3, 2], What is list1 * 2?",
+        "options": {
+            "a": "[2, 6, 4]",
+            "b": "[1, 3, 2, 1, 3]",
+            "c": "[1, 3, 2, 1, 3, 2]",
+            "d": "[1, 3, 2, 3, 2, 1]"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which one of the following is a valid Python if statement.",
+        "options": {
+            "a": "if a >= 2:",
+            "b": "if (a >= 2)",
+            "c": "if (a => 22)",
+            "d": "if a >= 22"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following assignment operator?\n y = 10\n x = y += 2\n print(x)",
+        "options": {
+            "a": "12",
+            "b": "10",
+            "c": "8",
+            "d": "Syntax error"
+        },
+        "answer": "d"
     }
 
 ]
