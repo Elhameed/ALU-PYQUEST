@@ -2,54 +2,39 @@
 
 PROBLEM_SETS = [
     {
-        "question": "What is the output of the following code?\n\nx = 5\ny = 10\nx, y = y, x\nprint(x, y)",
+        "question 1": "What is the output of the following code?\n\n class Animal:\n\t def __init__(self, name):\n\t self.name = name\n\n class Dog(Animal):\n\tdef bark(self):\n\tperson1 = Person("John", 25)\n print(person1.name)\n",
         "options": {
-            "a": "5 10",
-            "b": "10 5",
-            "c": "Error",
+            "a": "age 25",
+            "b": "john 25",
+            "c": "John",
             "d": "None of the above"
-        },
-        "answer": "b"
-    },
-    {
-        "question": "What is the output of the following code?\n\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list[::2])",
-        "options": {
-            "a": "[1, 3, 5]",
-            "b": "[2, 4]",
-            "c": "[1, 2, 3, 4, 5]",
-            "d": "[1, 4]"
-        },
-        "answer": "a"
-    },
-    {
-        "question": "Which of the following is NOT a valid numeric type in Python?",
-        "options": {
-            "a": "int",
-            "b": "float",
-            "c": "double",
-            "d": "complex"
         },
         "answer": "c"
     },
     {
-        "question": "What is the output of the following code?\n\nfor i in range(2, 10, 2):\n    print(i)",
+        "question2": "What is the output of the following code?\n\n class Animal:\n\t def __init__(self, name):\n\t self.name = name\n\n class Dog(Animal):\n\tdef bark(self):\n\tprint("Woof!")\n\nmy_dog = Dog("Fido")\nprint(my_dog.name)\nmy_dog.bark()\n",
         "options": {
-            "a": "2 4 6 8",
-            "b": "2 4 8",
-            "c": "2 6",
-            "d": "4 8"
+            "a": "Woof",
+            "b": "error",
+            "c": "Fido",
+            "d": " Woof! Fido"
         },
-        "answer": "a"
+        "answer": "d"
     },
     {
-        "question": "What is the value of x after the following code executes?\n\nx = 'Python'\nx += ' is great!'\n",
-        "options": {
-            "a": "'Python is great!'",
-            "b": "'Pythonis great!'",
-            "c": "'Python isgreat!'",
-            "d": "'Python is great'"
-        },
-        "answer": "a"
+        "question 3": "How do I use  functions in Python?\n\n def add_numbers(x, y):\n\treturn x + y\n\nresult = add_numbers(5, 7)\nprint(result)\n",
+        
+        "output": "12"
+    },
+    {
+        "question 4": "How can I deal with modules in Python?\n\ndef greet(name):\n\t rint("Hello, " + name + "!")\n\nimport mymodule\n\nmymodule.greet("Alice")\n",
+       
+        "output": "Hello, Alice!"
+    },
+    {
+        "question 5": "How do I read and write files in Python?\n\nwith open("myfile.txt", "w") as f:\n\tf.write("Hello, World!")\n\nwith open("myfile.txt", "r") as f:\n\tdata = f.read()\nprint(data)\n",
+      
+        "output": "Hello, World!"
     }
     {
         "question": "What is the difference between a list and a tuple in Python?",
