@@ -140,6 +140,78 @@ PROBLEM_SETS = [
                  },
              "answer": "a"
              },
-
+             {
+             "question": "what will this line print?\n q = True\n p = False\n result = q and p\n print(result)",
+             "options": {
+                 "a": "True",
+                 "b": "False",
+                 "c": "Error"
+                 },
+             "answer": "b"
+             },
+ {
+             "question": "what will this line print?\n w = 9\n z = 6\n result = w < z\n print(result)",
+             "options": {
+                 "a": "True",
+                 "b": "False",
+                 "c": "Error"
+                 },
+             "answer": "b"
+             },
+              {
+             "question": "what will this line print?\n age = 50\n print("My age is "+ age)",
+             "options": {
+                 "a": "My age is 50",
+                 "b": "My age",
+                 "c": "syntax error"
+                 },
+             "answer": "c"
+             },
+            {
+                "question": "what will this line print?\n for r in range(7):\n print(r)",
+             "options": {
+                 "a": "0 1 2 3 4 5 6",
+                 "b": "0 1 2 3 4 5 6 7",
+                 "c": "None of the above"
+                 },
+             "answer": "a"
+             },
+             {
+              "question": "what will this line print?\n my_list = [1, 2, 3, 4, 5]\n for my in my_list:\n\t print(my)",
+             "options": {
+                 "a": "1 2 3 4 5",
+                 "b": "[1, 2, 3, 4, 5]",
+                 "c": "syntax error"
+                 },
+             "answer": "a"
+             },
+             {
+             "question": "what will this line print?\n x = 15\n y = 5\n if x > y:\n\t print("x is number 24")\n else:\n\t print("y is number 25")",
+             "options": {
+                 "a": "x is number 24",
+                 "b": "y is number 25",
+                 "c": "syntax error"
+                 },
+             "answer": "a"
+             },
+              {
+            "question": "what will this line print?\n first_list = [1 2 3 4 5]\n print(len(first_list))",
+             "options": {
+                 "a": "1",
+                 "b": "5",
+                 "c": "syntax error"
+                 },
+             "answer": "b"
+             },
+               {
+           "question": "what will this line print?\n x = 8\n y = 5\n result = x - y\n print(result)",
+             "options": {
+                 "a": "3",
+                 "b": "5",
+                 "c": "syntax error"
+                 },
+             "answer": a    
+             },
 
 ]
+
