@@ -201,5 +201,57 @@ PROBLEM_SETS = [
             "d": "Compiled successfully, No output"
         },
         "answer": "b"
-    }
+    },
+    {
+        "question": "What does pip stand for python?",
+        "options": {
+            "a": "Pip Installs Python",
+            "b": "Pip Installs Packages",
+            "c": "Preferred Installer Program",
+            "d": "All of the mentioned"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python program?
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i == 3:
+        break
+else:
+    print(0)",
+        "options": {
+            "a": "error",
+            "b": "0 1 2 0",
+            "c": "0 1 2",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?
+
+>>> str1 = 'hello'
+>>> str2 = ','
+>>> str3 = 'world'
+>>> str1[-1:]",
+        "options": {
+            "a": "olleh",
+            "b": "hello",
+            "c": "h",
+            "d": "o"
+        },
+        "answer": "d"
+    },
+    "question": "Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
+        "options": {
+            "a": "5",
+            "b": "4",
+            "c": "None",
+            "d": "Error"
+        },
+        "answer": "a"
 ]
