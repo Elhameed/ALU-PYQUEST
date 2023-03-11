@@ -212,12 +212,16 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "Which one of the following data structures in python in immutable?",
+        "question": "Which one of the following data structures in python is immutable?",
         "options": {
             "a": "Tuple",
             "b": "Set",
             "c": "Dictionary",
             "d": "List"
+        },
+        "answer": "a"
+    },
+    {
         "question": "Which of these definitions correctly describes a module?",
         "options": {
             "a": "Any program that reuses code",
@@ -252,6 +256,10 @@ PROBLEM_SETS = [
             "b": "set[1, 2, 3, 2, 1]",
             "c": "{1, 2, 3, 2, 1}",
             "d": "{1, 2, 3}"
+        },
+        "answer": "d"
+    },
+    {
         "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
         "options": {
             "a": "-1",
@@ -328,7 +336,10 @@ PROBLEM_SETS = [
             "b": "Set",
             "c": "Dictionary",
             "d": "List"
-
+        },
+        "answer": "c"
+    },
+    {
         "question": "What is setattr() used for?",
         "options": {
             "a": "To access the attribute of the object",
@@ -345,6 +356,10 @@ PROBLEM_SETS = [
             "b": "Dictionaries can have duplicate keys",
             "c": "Dictionaries can have mutable values",
             "d": "Dictionaries can be accessed using any index"
+        },
+        "answer": "a"
+    },
+    {
         "question": "What will be the output of the following Python program?\n\ni = 0\nwhile i < 5:\n\tprint(i)\ni += 1\nif i == 3:\n\tbreak\nelse:\n\tprint(0)",
         "options": {
             "a": "error",
@@ -381,6 +396,10 @@ PROBLEM_SETS = [
             "b": "pop()",
             "c": "delete()",
             "d": "discard()"
+        },
+        "answer": "b"
+    },
+    {
         "question": "What will be the output of the following Python code?\n\nclass change:\n\tdef __init__(self, x, y, z):\n\tself.a = x + y + z\n\tx = change(1,2,3)\n\ty = getattr(x, 'a')\n\tsetattr(x, 'a', y+1)\n\tprint(x.a)",
         "options": {
             "a": "6",
@@ -425,6 +444,9 @@ PROBLEM_SETS = [
             "b": "Tuple can be used as key in a dictionary",
             "c": "Tuple can be accessed using an index",
             "d": "Tuple can have duplicate"
+        },
+        "answer": "c"
+    },
         "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
         "options": {
             "a": "-1",
@@ -484,7 +506,7 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
+    {
         "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
         "options": {
             "a": "1 2 3 4",
