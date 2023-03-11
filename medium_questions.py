@@ -212,6 +212,12 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
+        "question": "Which one of the following data structures in python in immutable?",
+        "options": {
+            "a": "Tuple",
+            "b": "Set",
+            "c": "Dictionary",
+            "d": "List"
         "question": "Which of these definitions correctly describes a module?",
         "options": {
             "a": "Any program that reuses code",
@@ -240,6 +246,12 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
+        "question": "What is the output of the following code set([1, 2, 3, 2, 1])?",
+        "options": {
+            "a": "set([1, 2, 3])",
+            "b": "set[1, 2, 3, 2, 1]",
+            "c": "{1, 2, 3, 2, 1}",
+            "d": "{1, 2, 3}"
         "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
         "options": {
             "a": "-1",
@@ -310,6 +322,13 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
+        "question": "Which of the following data structure in python does not allow duplicates?",
+        "options": {
+            "a": "Tuple",
+            "b": "Set",
+            "c": "Dictionary",
+            "d": "List"
+
         "question": "What is setattr() used for?",
         "options": {
             "a": "To access the attribute of the object",
@@ -320,6 +339,12 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
+        "question": "Which of the following is true about dictionaries in python?",
+        "options": {
+            "a": "Dictionaries are ordered",
+            "b": "Dictionaries can have duplicate keys",
+            "c": "Dictionaries can have mutable values",
+            "d": "Dictionaries can be accessed using any index"
         "question": "What will be the output of the following Python program?\n\ni = 0\nwhile i < 5:\n\tprint(i)\ni += 1\nif i == 3:\n\tbreak\nelse:\n\tprint(0)",
         "options": {
             "a": "error",
@@ -330,6 +355,32 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
+        "question": "What is the output of the following code dict(zip(['a', 'b', 'c'], [1, 2, 3]))?",
+        "options": {
+            "a": "{'a': 1, 'b': 2, 'c': 3}",
+            "b": "{1: 'a', 2: 'b', 3: 'c'}",
+            "c": "[('a', 1), ('b', 2), ('c', 3)]",
+            "d": "{(1, 'a'), (2, 'b'), (3, 'c')}"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following method can be used to add an item to a set?",
+        "options": {
+            "a": "add()",
+            "b": "append()",
+            "c": "extend()",
+            "d": "insert()"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following methods can be used to remove an item from a set?",
+        "options": {
+            "a": "remove()",
+            "b": "pop()",
+            "c": "delete()",
+            "d": "discard()"
         "question": "What will be the output of the following Python code?\n\nclass change:\n\tdef __init__(self, x, y, z):\n\tself.a = x + y + z\n\tx = change(1,2,3)\n\ty = getattr(x, 'a')\n\tsetattr(x, 'a', y+1)\n\tprint(x.a)",
         "options": {
             "a": "6",
@@ -368,6 +419,12 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
+        "question": "Which of the following is true about tuple in python?",
+        "options": {
+            "a": "Tuple can be modified after creation",
+            "b": "Tuple can be used as key in a dictionary",
+            "c": "Tuple can be accessed using an index",
+            "d": "Tuple can have duplicate"
         "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
         "options": {
             "a": "-1",
@@ -388,6 +445,16 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
+        "question": "Which of the following methods can be used to open a file in python for writing?",
+        "options": {
+            "a": "open('filename.txt', 'r')",
+            "b": "open('filename.txt', 'w')",
+            "c": "open('filename.txt', 'a')",
+            "d": "open('filename.txt', 'x')"
+        },
+        "answer": "b"
+    },
+
         "question": "What does this python program output?\ndef dem(name, age):\n    print(name, age)\ndem(\"Ben\", 25)",
         "options": {
             "a": "25",
