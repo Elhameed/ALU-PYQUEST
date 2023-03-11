@@ -123,6 +123,54 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
+        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "options": {
+            "a": " they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
+        "options": {
+            "a": "Less than 3",
+            "b": "Greater than or equal to 3",
+            "c": "syntax error",
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
+        "options": {
+            "a": "Hello Adam",
+            "b": "Hello",
+            "c": "sybntax error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What will be the output of the following code?\nx = 10\nif x > 5:\n print('x is greater than 5')\nelse:\n print('x is less than or equal to 5')",
+        "options": {
+            "a": "x is greater than 5",
+            "b": "x is less than or equal to 5",
+            "c": "Syntax error",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    }
+    {
+        "question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
+        "options": {
+            "a": "Age is between 18 and 26",
+            "b": "Age is between 18 and 25",
+            "c": "Syntax error",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    }
+    {
         "question": "What keyword would you use to add an alternative condition to an if statement?",
         "options": {
             "a": "else if",
@@ -133,7 +181,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-            "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
+        "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
         "options": {
             "a": "66\n 0",
             "b": "36\n 0",
@@ -143,7 +191,7 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-            "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
+        "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
         "options": {
             "a": "Hi",
             "b": "Hello",
@@ -178,6 +226,12 @@ PROBLEM_SETS = [
             "a": "10",
             "b": "0",
             "c": "Syntax Error"
+        "question": "What does pip stand for python?",
+        "options": {
+            "a": "Pip Installs Python",
+            "b": "Pip Installs Packages",
+            "c": "Preferred Installer Program",
+            "d": "All of the mentioned"
         },
         "answer": "c"
     },
@@ -188,10 +242,17 @@ PROBLEM_SETS = [
             "b": "list1 = [] * 3",
             "c": "list1 = [2, 8, 7]",
             "d": "None of the above"
+        "question": "What will be the output of the following Python code?\n\n>>> str1 = 'hello'\n>>> str2 = ','\n>>> str3 = 'world'\n>>> str1[-1:]",
+        "options": {
+            "a": "olleh",
+            "b": "hello",
+            "c": "h",
+            "d": "o"
         },
         "answer": "d"
     },
     {
+<
         "question": "Suppose list1 is [1, 3, 2], What is list1 * 2?",
         "options": {
             "a": "[2, 6, 4]",
@@ -220,6 +281,13 @@ PROBLEM_SETS = [
             "d": "Syntax error"
         },
         "answer": "d"
+        "question": "Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
+        "options": {
+            "a": "5",
+            "b": "4",
+            "c": "None",
+            "d": "Error"
+        },
+        "answer": "a"
     }
-
 ]
