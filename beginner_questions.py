@@ -32,7 +32,7 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "What is the output of the following code?",\n\n list = ['apple', 'banana', 'cherry']\nlist.append('orange')\nprint(list)",
+        "question": "What is the output of the following code?,\n\n list = ['apple', 'banana', 'cherry']\nlist.append('orange')\nprint(list)",
         "options": {
                 "a": "['apple', 'banana', 'cherry']",
                 "b": "['apple', 'banana', 'cherry', 'orange']",
