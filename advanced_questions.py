@@ -122,11 +122,110 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-     {
+    {
+        "question": "What is the output of the following code?\n lst = [1, 2, 3, 4, 5]\n new_lst = [num * 2 for num in lst if num % 2 == 0]\n print(new_lst)",
+        "options": {
+            "a": "[2, 4, 6, 8, 10]",
+            "b": "[4, 8]",
+            "c": "[2, 6, 10]",
+            "d": "[1, 2, 3, 4, 5]"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following is not a built-in function in Python?",
+        "options": {
+            "a": "sum()",
+            "b": "len()",
+            "c": "sort()",
+            "d": "range()"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the output of the following code?\n a = [1, 2, 3]\n b = a\n b[0] = 0\n print(a)",
+        "options": {
+            "a": "[0, 2, 3]",
+            "b": "[1, 2, 3]",
+            "c": "[0, 1, 2, 3]",
+            "d": "[1, 0, 2, 3]"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n class MyClass:\n\t def init(self, num):\n\t\t self.num = num\n a = MyClass(5)\n b = MyClass(10)\n print(a.num + b.num)",
+        "options": {
+            "a": "15",
+            "b": "'5 10'",
+            "c": "TypeError",
+            "d": "AttributeError"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n def my_func(a, b, c, d):\n\t print(a, b, c, d)\n lst = [1, 2, 3, 4]\n my_func(*lst)",
+        "options": {
+            "a": "TypeError",
+            "b": "1 2 3 4",
+            "c": "4 3 2 1",
+            "d": "1 4 2 3"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of the following code?\n def my_func(a, b=2, c=3):\n\t print(a, b, c)\n my_func(1, c=4)",
+        "options": {
+            "a": "1 2 3",
+            "b": "1 3 4",
+            "c": "1 2 4",
+            "d": "SyntaxError"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is true about Python's Global Interpreter Lock (GIL)?",
+        "options": {
+            "a": "It allows multiple threads to execute Python code simultaneously.",
+            "b": "It prevents deadlocks from occurring in Python programs.",
+            "c": "It ensures that only one thread executes Python bytecode at a time.",
+            "d": "It prevents race conditions from occurring in Python programs."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the output of the following code?\n def my_gen(n):\n\t for i in range(n):\n\t\t yield i\n gen = my_gen(3)\n print(next(gen), next(gen), next(gen), next(gen))",
+        "options": {
+            "a": "0 1 2 StopIteration",
+            "b": "0 1 2 None",
+            "c": "0 1 2 TypeError",
+            "d": "SyntaxError"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n x = 10\n y = 20\n x, y = y, x\n print(x, y)",
+        "options": {
+            "a": "10 20",
+            "b": "20 10",
+            "c": "SyntaxError",
+            "d": "TypeError"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of the following code?\n def my_func(x):\n\t if x % 2 == 0:\n\t\t return True\n\t else:\n\t\t return False\n lst = [1, 2, 3, 4, 5]\n new_lst = filter(my_func, lst)\n print(list(new_lst))",
+        "options": {
+            "a": "[1, 3, 5]",
+            "b": "[2, 4]",
+            "c": "[False, True, False, True, False]",
+            "d": "TypeError"
+        },
+        "answer": "b"
+    },
         "question": "Which of the following statements is true about Python's asyncio library?",
         "options": {
             "a": "It allows multiple threads to execute in parallel",
-            "b": " It is used for parallel processing of CPU-bound tasks",
+            "b": "It is used for parallel processing of CPU-bound tasks",
             "c": "It is based on the concept of coroutines",
             "d": "It is not compatible with Python 3"
         },
@@ -176,4 +275,5 @@ for i in range(n):
         },
         "answer": "b"
     },
+    }
 ]
