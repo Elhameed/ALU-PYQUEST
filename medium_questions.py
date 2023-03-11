@@ -151,6 +151,107 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
+<<<<<<< HEAD
+    {
+            "question": "Which of these definitions correctly describes a module?",
+            "options": {
+                "a": "Any program that reuses code",
+                "b": "Defines the specification of how it is to be used",
+                "c": "Denoted by triple quotes for providing the specification of certain program elements",
+                "d": "Design and implementation of specific functionality to be incorporated into a program"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "To include the use of functions which are present in the random library, we must use the option:",
+            "options": {
+                "a": "random.h",
+                "b": "import.random",
+                "c": "import random",
+                "d": "random.random"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "The output of the following Python code is either 1 or 2.\nimport random\nrandom.randint(1,2)",
+            "options": {
+                "a": "True",
+                "b": "False"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
+            "options": {
+                "a": "-1",
+                "b": "[11, 9, 7, 5]",
+                "c": "11",
+                "d": "7"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "What do these lines print?\nfor i in range(5, 8):\n    print(i, end=\" \")",
+            "options": {
+                "a": "5 6 7 8",
+                "b": "5 6 7",
+                "c": "0 5 6 7",
+                "d": "5,6,7"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What does this python program output?\ndef dem(name, age):\n    print(name, age)\ndem(\"Ben\", 25)",
+            "options": {
+                "a": "25",
+                "b": "Ben",
+                "c": "Ben 25",
+                "d": "error"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Which of the following is correct?",
+            "options": {
+                "a": "defunct(a, b)",
+                "b": "def add(a, b):",
+                "c": "define add(a + b):",
+                "d": "define add(a + b)"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age', 0)",
+            "options": {
+                "a": "'age'",
+                "b": "89",
+                "c": "0",
+                "d": "Nothing"
+            },
+            "answer": "c"
+        },
+         {
+                 "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
+            "options": {
+                "a": "1 2 3 4",
+                "b": "1, 3, 4, 2, 0",
+                "c": "1--3--4--2",
+                "d": "1-3-4-2"
+            },
+            "answer": "d"
+        },
+         {
+            "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age')",
+            "options": {
+                "a": "'age'",
+                "b": "89",
+                "c": "12",
+                "d": "Nothing"
+            },
+            "answer": "d"
+        },
+
+=======
      {
         "question": "What is setattr() used for?",
         "options": {
@@ -180,5 +281,104 @@ PROBLEM_SETS = [
             "d": "Error"
         },
         "answer": "b"
-    }
+    },
+    {
+            "question": "Which of these definitions correctly describes a module?",
+            "options": {
+                "a": "Any program that reuses code",
+                "b": "Defines the specification of how it is to be used",
+                "c": "Denoted by triple quotes for providing the specification of certain program elements",
+                "d": "Design and implementation of specific functionality to be incorporated into a program"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "To include the use of functions which are present in the random library, we must use the option:",
+            "options": {
+                "a": "random.h",
+                "b": "import.random",
+                "c": "import random",
+                "d": "random.random"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "The output of the following Python code is either 1 or 2.\nimport random\nrandom.randint(1,2)",
+            "options": {
+                "a": "True",
+                "b": "False"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
+            "options": {
+                "a": "-1",
+                "b": "[11, 9, 7, 5]",
+                "c": "11",
+                "d": "7"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "What do these lines print?\nfor i in range(5, 8):\n    print(i, end=\" \")",
+            "options": {
+                "a": "5 6 7 8",
+                "b": "5 6 7",
+                "c": "0 5 6 7",
+                "d": "5,6,7"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What does this python program output?\ndef dem(name, age):\n    print(name, age)\ndem(\"Ben\", 25)",
+            "options": {
+                "a": "25",
+                "b": "Ben",
+                "c": "Ben 25",
+                "d": "error"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Which of the following is correct?",
+            "options": {
+                "a": "defunct(a, b)",
+                "b": "def add(a, b):",
+                "c": "define add(a + b):",
+                "d": "define add(a + b)"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age', 0)",
+            "options": {
+                "a": "'age'",
+                "b": "89",
+                "c": "0",
+                "d": "Nothing"
+            },
+            "answer": "c"
+        },
+         {
+                 "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
+            "options": {
+                "a": "1 2 3 4",
+                "b": "1, 3, 4, 2, 0",
+                "c": "1--3--4--2",
+                "d": "1-3-4-2"
+            },
+            "answer": "d"
+        },
+         {
+            "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age')",
+            "options": {
+                "a": "'age'",
+                "b": "89",
+                "c": "12",
+                "d": "Nothing"
+            },
+            "answer": "d"
+        }
+
 ]
