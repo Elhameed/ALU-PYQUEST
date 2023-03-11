@@ -21,6 +21,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
+    {
         "question": "How do I add a single item to a list in Python?",
         "options": {
             "a": "my_list = [1, 2, 3, 4, 5]\nmy_list.append(6)\nprint(my_list)\n >> [1, 2, 3, 4, 5, 6]",
@@ -31,7 +32,7 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "What is the output of the following code?",\n\n list = ['apple', 'banana', 'cherry']\nlist.append('orange')\nprint(list),
+        "question": "What is the output of the following code?",\n\n list = ['apple', 'banana', 'cherry']\nlist.append('orange')\nprint(list)",
         "options": {
                 "a": "['apple', 'banana', 'cherry']",
                 "b": "['apple', 'banana', 'cherry', 'orange']",
