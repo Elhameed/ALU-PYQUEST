@@ -22,6 +22,60 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
+        "question": "What does the map() function do in Python?",
+        "options": {
+            "a": " It applies a function to each element of an iterable and returns an iterator.",
+            "b": "It combines two or more iterables into a single iterator.",
+            "c": "It sorts an iterable in ascending or descending order.",
+            "d": "It creates a dictionary from an iterable."
+        },
+        "answer": "a"
+    },
+
+{
+        "question": "What is the purpose of the pass keyword in Python?"
+        "options": {
+            "a": "It is used to continue to the next iteration of a loop",
+            "b": "It is used to break out of a loop",
+            "c": "It is used to define a function without any content.",
+            "d": "It is used to raise an exception."
+        },
+        "answer": "c"
+    },
+
+{
+        "question": "What does the join() method do in Python?"
+        "options": {
+            "a": "Concatenates two strings together.",
+            "b": "Removes all whitespace from a string.",
+            "c": "Splits a string into a list of substrings.",
+            "d": "Concatenates a list of strings into a single string with a delimiter between each element."
+        },
+        "answer": "d"
+    },
+
+{
+        "question": "What is the difference between a local variable and a global variable in Python?"
+        "options": {
+            "a": "A local variable is declared inside a function and can be accessed anywhere in the program, while a global variable is declared outside a function and can only be accessed within the function where it is declared.",
+            "b": "A local variable is declared inside a function and can only be accessed within that function, while a global variable is declared outside a function and can be accessed anywhere in the program.",
+            "c": "A local variable can only be assigned a value once, while a global variable can be assigned multiple values.",
+            "d": "A local variable is declared using the local keyword, while a global variable is declared using the global keyword."
+        },
+        "answer": "b"
+    },
+
+{
+        "question": "Which of the following is a valid way to open a file in Python for writing?"
+        "options": {
+            "a": "file = open("myfile.txt", "rb")",
+            "b": "file = open("myfile.txt", "w")",
+            "c": "file = open("myfile.txt", "read")",
+            "d": "file = open("myfile.txt", "a+")"
+        },
+        "answer": "b"
+    },
+    {
         "question": "Which of the following is NOT a valid numeric type in Python?",
         "options": {
             "a": "int",
