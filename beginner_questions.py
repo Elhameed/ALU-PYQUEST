@@ -171,43 +171,42 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-
-     {
-             "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
-             "options": {
-                 "a": "Less than 3",
-                 "b": "Greater than or equal to 3",
-                 "c": "syntax error",
-                 },
-             "answer": "a"
-             },
-            {
-             "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
-             "options": {
-                 "a": "Hello Adam",
-                 "": "Hello",
-                 "c": "sybntax error"
-                 },
-             "answer": "a"
-             },
-             {
-             "question": "what will this line print?\n q = True\n p = False\n result = q and p\n print(result)",
-             "options": {
-                 "a": "True",
-                 "b": "False",
-                 "c": "Error"
-                 },
-             "answer": "b"
-             },
- {
-             "question": "what will this line print?\n w = 9\n z = 6\n result = w < z\n print(result)",
-             "options": {
-                 "a": "True",
-                 "b": "False",
-                 "c": "Error"
-                 },
-             "answer": "b"
-             },
+    {
+        "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
+        "options": {
+            "a": "Less than 3",
+            "b": "Greater than or equal to 3",
+            "c": "syntax error",
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
+        "options": {
+            "a": "Hello Adam",
+            "b": "Hello",
+            "c": "sybntax error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n q = True\n p = False\n result = q and p\n print(result)",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "what will this line print?\n w = 9\n z = 6\n result = w < z\n print(result)",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error"
+        },
+        "answer": "b"
+      },
               {
              "question": "what will this line print?\n age = 50\n print("My age is "+ age)",
              "options": {
