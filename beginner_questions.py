@@ -3,58 +3,162 @@
 # Store beginner level questions as a list of dictionaries
 PROBLEM_SETS = [
     {
-        "question 1": "Which example of a simple programm in Python?\n",
-
-        "answer": "print("Hello, World!") >>Hello, World!"
+        "question": "Which of these is an example of a simple program in Python?",
+        "options": {
+            "a": "print('Hello, World!')\n >> Hello, World!",
+            "b": "def hello():\n\t print('Hello, Boss!')\n >> Hello, World!",
+            "c": "print('Hello, Python!') >> Hello, World!",
+            "d": "def world():\n\t print('Hello, Word!') >> Hello, World!"
+        },
+        "answer": "a"
+    },
+        "question": "What's the correct way to declare variables in Python?",
+        "options": {
+            "a": "set x = 5, y = 10, z = x + y, print(z) >> Output: 15",
+            "b": "x = 5\ny = 10\nz = x + y\nprint(z) >> Output: 15",
+            "c": "x = 5, y = 10, z = x + y\nprint(z) >> Output: 15",
+            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z) >> Output: 15"
+        },
+        "answer": "b"
+    },
+        "question": "How do I add a single item to a list in Python?",
+        "options": {
+            "a": "my_list = [1, 2, 3, 4, 5]\nmy_list.append(6)\nprint(my_list)\n >> [1, 2, 3, 4, 5, 6]",
+            "b": "my_list = [1, 2, 3, 4, 5]\nmy_list.add(6)\nprint(my_list) >>\n [1, 2, 3, 4, 5, 6]",
+            "c": "my_list = [1, 2, 3, 4, 5]\nmy_list.extend(6)\nprint(my_list) >>\n [1, 2, 3, 4, 5, 6]",
+            "d": "my_list = [1, 2, 3, 4, 5]\nmy_list.insert(6)\nprint(my_list) >>\n [1, 2, 3, 4, 5, 6]"
+        },
+        "answer": "a"
     },
     {
-        "question 2": "How can I use variables in python?\n\n",
-        
-        "answer": "
-         "x = 5",
-         "y = 10",
-         "z = x + y",
-         "print(z)",
- # Output: 15"
+        "question": "What is the output of the following code?",\n\n list = ['apple', 'banana', 'cherry']\nlist.append('orange')\nprint(list),
+        "options": {
+                "a": "['apple', 'banana', 'cherry']",
+                "b": "['apple', 'banana', 'cherry', 'orange']",
+                "c": "['apple', 'banana', 'cherry', 'orange', 'grape', 'kiwi']",
+                "d": "Error"
+        },
+        "answer": "b"
     },
     {
-        "question 3": "how do I use lists in Python?\n\n my_list = [1, 2, 3, 4, 5]'\n my_list.append(6)'\n print(my_list)\n",
-    
-        "output": "[1, 2, 3, 4, 5, 6]"
+        "question": "What's the output of this code?\n\n for i in range(5):\n\t print(i)\n",
+        "options": {
+            "a": "0 1 2 3 4",
+            "b": "0, 1, 2, 3, 4",
+            "c": "01234",
+            "d": "54321"
+        },
+        "answer": "a"
     },
     {
-        "question 4": "How do I access individual elements in a list in Python?\n\n my_list = [1, 2, 3, 4, 5]'\n my_list.append(6)'\n print(my_list[0])\n",
-       
-        "output": "1"
+        "question": "Which of the following is a correct way to declare a variable in Python?\n",
+        "options": {
+            "a": "1var = 'Hello World'",
+            "b": "var-1 = 'Hello World'",
+            "c": "var_1 = 'Hello World'",
+            "d": "Var$1 = 'Hello World'"
+            },
+        "answer": "c"
     },
     {
-        "question 5": "How do I add elements to a list in Python?\n\n list = ["apple", "banana", "cherry"] \n list.append("orange")\n if x>y:\nlist.extend(["grape", "kiwi"])\nprint(list)\n",
-        
-        "output": " ["apple", "banana", "cherry", "orange", "grape", "kiwi"]"
+        "question": "What is the output of the following code?\n\n x = 5 \n y = 2 \n print(x+y)\n print(x-y)\n print(x*y)\n print(x/y)\n",
+        "options": {
+            "a": "7, 3, 10, 2.5",
+            "b": "3, 7, 10, 2.5",
+            "c": "7, 3, 10, 2",
+            "d": "3, 7, 10, 2"
+            },
+        "answer": "a"
     },
     {
-        "question 6": "How do I remove elements from a list in Python?\n\n list = ["apple", "banana", "cherry"]\n list.remove("banana")\nprint(list)\n",
-        "output": "["apple", "cherry"]"
+        "question": "What is the output of the following code?\n\n x = 'Hello'\n y = 'World'\n print(x+y)\n",
+        "options": {
+            "a": "Hello World",
+            "b": "HelloWorld",
+            "c": "Hello+World",
+            "d": "None of the above"
+            },
+        "answer": "a"
     },
     {
-        "question 7": "How do I sort a list in Python?\n\n list = [3, 1, 4, 1, 5, 9, 2, 6, 5]\n sorted_list = sorted(list)\n print(sorted_list)\n",
-       
-        "output": "[1, 1, 2, 3, 4, 5, 5, 6, 9]"
+        "question": "Which of the following is the correct syntax to declare a list in Python?\n",
+        "options": {
+            "a": "list = [1, 2, 3]",
+            "b": "list = {1, 2, 3}",
+            "c": "list = (1, 2, 3)",
+            "d": "list = '1, 2, 3'"
+            },
+        "answer": "a"
     },
     {
-        "question 8": "How do I use conditional statement in Python?\n\n x = 5\n\n if x > 0:\n\t  print("x is positive")\n else:\n\t print("x is not positive")\n",
-     
-        "output": "x is positive"
+        "question": "What is the output of the following code?\n\n x = 5 \n y = 10\n if x>y:\n\tprint('x is greater than y')\nelse:\n\tprint('y is greater than x')\n",
+        "options": {
+            "a": "x is greater than y",
+            "b": "y is greater than x",
+            "c": "x and y are equal",
+            "d": "Syntax error"
+            },
+        "answer": "b"
     },
     {
-        "question 9": "How do I check if an element is in a list in Python?\n\n list = ["apple", "banana", "cherry"]\n if "banana" in list:\n\t print("Element found!")\n else:\n\t print("Element not found!")\n",
-       
-        "output": "Element found!"
+        "question": "What is the output of the following code?\n\n x = 0\n while x < 5:\n\tprint(x)\n\tx+=1\n",
+        "options": {
+            "a": "0 1 2 3 4",
+            "b": "5",
+            "c": "Infinite loop",
+            "d": "None of the above"
+            },
+        "answer": "a"
     },
     {
-        "question 10": "How to use loop in Python?\n\n for i in range(5):\n\t print(i)\n",
-        
-        "output": "0 1 2 3 4"
+        "question": "What is the output of the following code?\n\n for x in range(1,6):\n\tprint(x)",
+        "options": {
+            "a": "1 2 3 4 5",
+            "b": "0 1 2 3 4",
+            "c": "6 7 8 9 10",
+            "d": "None of the above"
+            },
+        "answer": "a"
+    },
+    {
+        "question": "What does the 'print()' function do?",
+        "options": {
+            "a": "It prompts the user to input a value",
+            "b": "It adds two numbers together",
+            "c": "It displays a message or value on the screen",
+            "d": "It converts a value to a string"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the result of the expression '5 + 7'?",
+        "options": {
+            "a": "12",
+            "b": "13",
+            "c": "14",
+            "d": "15"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the correct way to declare a variable in Python?",
+        "options": {
+            "a": "var x = 5",
+            "b": "int x = 5",
+            "c": "x = 5",
+            "d": "x := 5"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the output of the code 'print(len('hello'))'?",
+        "options": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "7"
+        },
+        "answer": "b"
     },
     {
         "question": "What is the correct way to define a function in Python?",
@@ -69,7 +173,7 @@ PROBLEM_SETS = [
     {
         "question": "Why are local variable names beginning with an underscore discouraged?",
         "options": {
-            "a": " they are used to indicate a private variables of a class",
+            "a": "they are used to indicate a private variables of a class",
             "b": "they confuse the interpreter",
             "c": "they are used to indicate global variables",
             "d": "they slow down execution"
@@ -145,17 +249,17 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
-        "question": "Select the correct output of the following String operations\nstr1 = 'Welcome'\nprint (str1[:6] + ' John')",
+        "question": "Select the correct output of the following String operations\n\nstr1 = 'Welcome'\nprint (str1[:6] + ' John')",
         "options": {
             "a": "Welcome John",
             "b": "WelcomJohn",
             "c": "Welcom John",
             "d": "None of the above"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
-        "question": "Guess the correct output of the following String operations\nstr1 = 'Welcome'\nprint(str1*2)",
+        "question": "Guess the correct output of the following String operations\n\nstr1 = 'Welcome'\nprint(str1*2)",
         "options": {
             "a": "WelcomeWelcome",
             "b": "TypeError unsupported operand type(s)",
@@ -165,11 +269,16 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "What is the output of the following\nl = [None] * 10\nprint(len(l))",
+        "question": "What is the output of the following\n\nl = [None] * 10\nprint(len(l))",
         "options": {
             "a": "10",
             "b": "0",
-            "c": "Syntax Error"
+            "c": "Syntax Error",
+            "d": "I don't know"
+        },
+        "answer": "a"
+    },
+    {
         "question": "What does pip stand for python?",
         "options": {
             "a": "Pip Installs Python",
@@ -186,6 +295,10 @@ PROBLEM_SETS = [
             "b": "list1 = [] * 3",
             "c": "list1 = [2, 8, 7]",
             "d": "None of the above"
+        },
+        "answer": "b"
+    },
+    {
         "question": "What will be the output of the following Python code?\n\n>>> str1 = 'hello'\n>>> str2 = ','\n>>> str3 = 'world'\n>>> str1[-1:]",
         "options": {
             "a": "olleh",
@@ -224,6 +337,8 @@ PROBLEM_SETS = [
             "d": "Syntax error"
         },
         "answer": "d"
+    },
+    {
         "question": "Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
         "options": {
             "a": "5",
