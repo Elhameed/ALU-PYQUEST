@@ -37,7 +37,7 @@ PROBLEM_SETS = [
         "output": "Hello, World!"
     }
     {
-        "question": "What is the difference between a list and a tuple in Python?",
+        "question 6": "What is the difference between a list and a tuple in Python?",
         "options": {
             "a": "Lists are immutable while tuples are mutable",
             "b": "Tuples are immutable while lists are mutable",

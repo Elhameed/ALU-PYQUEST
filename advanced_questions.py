@@ -126,10 +126,19 @@ PROBLEM_SETS = [
         "question": "Which of the following statements is true about Python's asyncio library?",
         "options": {
             "a": "It allows multiple threads to execute in parallel",
-            "b": "It is used for parallel processing of CPU-bound tasks",
+            "b": "It is used for parallel processing of CPU-bound tasks",print("The function is called.")
             "c": "It is based on the concept of coroutines",
             "d": "It is not compatible with Python 3"
         },
         "answer": "c"
+    },
+    {
+        "question": "How can I use decorators in Python?\n\ndef my_decorator(func):\n\tdef wrapper(*args, **kwargs)\n\tprint("Before the function is called.")\nresult = func(*args, **kwargs)\nprint("After the function is called.")\nreturn result\nreturn wrapper\n\ndef my_function():\n\tprint("The function is called.")\n",
+      "output": ""Before the function is called.", "The function is called.", and "After the function is called.""
+    },
+    {
+        "question": "How can I work with asynchronous code in Python?\n\nimport asyncio\n\nasync def my_coroutine():\n\tprint("Start coroutine.")\nawait asyncio.sleep(1)\nprint("Coroutine finished.")\n\nasyncio.run(my_coroutine())\n",
+      "output": ""Start coroutine." and "Coroutine finished." with a 1-second delay in between"
     }
+
 ]
