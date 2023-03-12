@@ -91,8 +91,7 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-
-{
+    {
         "question": "What is the purpose of the pass keyword in Python?"
         "options": {
             "a": "It is used to continue to the next iteration of a loop",
@@ -102,8 +101,7 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-
-{
+    {
         "question": "What does the join() method do in Python?"
         "options": {
             "a": "Concatenates two strings together.",
@@ -113,8 +111,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-
-{
+    {
         "question": "What is the difference between a local variable and a global variable in Python?"
         "options": {
             "a": "A local variable is declared inside a function and can be accessed anywhere in the program, while a global variable is declared outside a function and can only be accessed within the function where it is declared.",
@@ -124,8 +121,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-
-{
+    {
         "question": "Which of the following is a valid way to open a file in Python for writing?"
         "options": {
             "a": "file = open("myfile.txt", "rb")",
@@ -185,8 +181,7 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-
-{
+    {
         "question": "What is the purpose of the pass keyword in Python?"
         "options": {
             "a": "It is used to continue to the next iteration of a loop",
@@ -196,8 +191,7 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-
-{
+    {
         "question": "What does the join() method do in Python?"
         "options": {
             "a": "Concatenates two strings together.",
@@ -207,8 +201,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-
-{
+    {
         "question": "What is the difference between a local variable and a global variable in Python?"
         "options": {
             "a": "A local variable is declared inside a function and can be accessed anywhere in the program, while a global variable is declared outside a function and can only be accessed within the function where it is declared.",
@@ -218,8 +211,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-
-{
+    {
         "question": "Which of the following is a valid way to open a file in Python for writing?"
         "options": {
             "a": "file = open("myfile.txt", "rb")",
