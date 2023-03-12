@@ -35,6 +35,60 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
+        "question": "What is a metaclass in Python?",
+        "options": {
+            "a": "A class used to define the behavior of other classes.",
+            "b": "A class used to define the behavior of other metaclasses.",
+            "c": "A class used to define the behavior of class instances.",
+            "d": "A class used to define the behavior of function calls."
+        },
+        "answer": "a"
+    },
+
+{
+        "question": "What is the purpose of the __slots__ attribute in Python classes?",
+        "options": {
+            "a": "It is used to define a set of allowed attributes for a class instance",
+            "b": "It is used to define a set of forbidden attributes for a class instance",
+            "c": "It is used to define a set of class-level attributes",
+            "d": "It is used to define a set of static attributes."
+        },
+        "answer": "a"
+    },
+
+{
+        "question": "Which of the following is not a Python built-in module for working with files?",
+        "options": {
+            "a": "os",
+            "b": "io",
+            "c": "pathlib",
+            "d": "file"
+        },
+        "answer": "d"
+    },
+
+{
+        "question": "Which of the following is a Python decorator that can be used for caching expensive function calls?",
+        "options": {
+            "a": "@staticmethod",
+            "b": "@classmethod",
+            "c": "@property",
+            "d": "@lru_cache"
+        },
+        "answer": "d"
+    },
+
+{
+        "question": "What is the difference between a shallow copy and a deep copy in Python?",
+        "options": {
+            "a": "A shallow copy creates a copy of the object's reference while a deep copy creates a copy of the object's data.",
+            "b": "A shallow copy creates a new object while a deep copy does not.",
+            "c": "A shallow copy only copies the first level of the object while a deep copy copies all levels.",
+            "d": "A shallow copy is slower than a deep copy."
+        },
+        "answer": "a"
+    },
+    {
         "question": "What is the output of the following code?\n\nimport re\nmy_string = 'The quick brown fox jumps over the lazy dog'\nresult = re.findall('[aeiou]', my_string)\nprint(result)",
         "options": {
             "a": "['a', 'e', 'i', 'o', 'u']",
