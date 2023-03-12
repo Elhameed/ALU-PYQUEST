@@ -103,7 +103,7 @@ PROBLEM_SETS = [
             "d": "SyntaxError: invalid syntax"
         },
         "answer": "b"
-    }
+    },
     {
         "question": "What is the difference between the print() function and the return statement in Python?",
         "options": {
@@ -113,7 +113,7 @@ PROBLEM_SETS = [
             "d": "print() and return statement are not valid functions in Python"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the purpose of the urllib module in Python?",
         "options": {
@@ -123,7 +123,7 @@ PROBLEM_SETS = [
             "d": "To perform mathematical operations"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the purpose of test-driven development (TDD) in software development?",
         "options": {
@@ -133,7 +133,7 @@ PROBLEM_SETS = [
             "d": "To write code quickly without worrying about testing"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is object-relational mapping (ORM) in Python?",
         "options": {
@@ -143,7 +143,7 @@ PROBLEM_SETS = [
             "d": "A technique for mapping Python scripts to network protocols"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the difference between the input() function and the raw_input() function in Python 2.x?",
         "options": {
@@ -153,7 +153,7 @@ PROBLEM_SETS = [
             "d": "The input() and raw_input() functions are interchangeable and can be used interchangeably in Python 2.x"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "Which of the following is a valid way to open a file named \"example.txt\" in read mode?",
         "options": {
@@ -281,12 +281,8 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
-        "question": "What is the output of the below code?
-
-myList=[1,2,3,5,3,4,6,9]
-
-myList[-6:6]",
+    {
+        "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
         "options": {
             "a": "[]",
             "b": "[3, 5, 3, 4]",
@@ -295,18 +291,8 @@ myList[-6:6]",
         },
         "answer": "b"
     },
-     {
-        "question": "What is the run time of the below code?
-
-for i in range(n):
-
-    j=1
-
-    while(j<n):
-
-        print(i,j)
-
-        j*=2",
+    {
+        "question": "What is the run time of the below code?\n\nfor i in range(n):\n\tj=1\nwhile(j<n):\n\nprint(i,j)\nj*=2",
         "options": {
             "a": "O(n)",
             "b": "O(n^2)",
@@ -315,8 +301,8 @@ for i in range(n):
         },
         "answer": "d"
     },
-     {
-             "question": "What is the method that is bound to class but not the instance?",
+    {
+        "question": "What is the method that is bound to class but not the instance?",
         "options": {
             "a": "Static method",
             "b": "Class method",
@@ -325,5 +311,4 @@ for i in range(n):
         },
         "answer": "b"
     },
-    }
 ]
