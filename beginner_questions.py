@@ -12,6 +12,7 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
+    {
         "question": "What's the correct way to declare variables in Python?",
         "options": {
             "a": "set x = 5, y = 10, z = x + y, print(z) >> Output: 15",
@@ -298,7 +299,7 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
         "options": {
@@ -308,7 +309,7 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "b"
-    }
+    },
     {
         "question": "What keyword would you use to add an alternative condition to an if statement?",
         "options": {
@@ -400,7 +401,6 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-    "question": "Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
         "question": "Suppose list1 is [1, 3, 2], What is list1 * 2?",
         "options": {
             "a": "[2, 6, 4]",
@@ -439,9 +439,9 @@ PROBLEM_SETS = [
             "d": "Error"
         },
         "answer": "a"
-        },
+    },
     {
-    "question": "Which of the following is used to define a block of code in Python language?",
+        "question": "Which of the following is used to define a block of code in Python language?",
         "options": {
             "a": "Indentation",
             "b": "Key",
@@ -449,9 +449,9 @@ PROBLEM_SETS = [
             "d": "All of the mentioned"
         },
         "answer": "a"
-        },
+    },
     {
-    "question": "Which keyword is used for function in Python language?",
+        "question": "Which keyword is used for function in Python language?",
         "options": {
             "a": "Function",
             "b": "def",
@@ -459,9 +459,9 @@ PROBLEM_SETS = [
             "d": "Define"
         },
         "answer": "b"
-        },
+    },
     {
-    "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
         "options": {
             "a": "sys.version(1)",
             "b": "sys.version(0)",
@@ -469,6 +469,5 @@ PROBLEM_SETS = [
             "d": "sys.version"
         },
         "answer": "d"
-        },
-    }
+    },
 ]
