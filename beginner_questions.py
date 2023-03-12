@@ -400,6 +400,7 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
+    "question": "Suppose listExample is [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
         "question": "Suppose list1 is [1, 3, 2], What is list1 * 2?",
         "options": {
             "a": "[2, 6, 4]",
@@ -438,5 +439,36 @@ PROBLEM_SETS = [
             "d": "Error"
         },
         "answer": "a"
+        },
+    {
+    "question": "Which of the following is used to define a block of code in Python language?",
+        "options": {
+            "a": "Indentation",
+            "b": "Key",
+            "c": "Brackets",
+            "d": "All of the mentioned"
+        },
+        "answer": "a"
+        },
+    {
+    "question": "Which keyword is used for function in Python language?",
+        "options": {
+            "a": "Function",
+            "b": "def",
+            "c": "Fun",
+            "d": "Define"
+        },
+        "answer": "b"
+        },
+    {
+    "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "options": {
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version"
+        },
+        "answer": "d"
+        },
     }
 ]

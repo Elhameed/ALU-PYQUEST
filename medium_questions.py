@@ -509,6 +509,46 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
+     {
+        "question": "What is a generator in Python?",
+        "options": {
+            "a": "The function that generates random numbers of specified count",
+            "b": "The function that generates an error when a warning occurs",
+            "c": "The function that gives a statement as output rather than a return",
+            "d": "The function that returns a generic object"
+        },
+        "answer": "c"
+        },
+      {
+        "question": "What is the output of the below code?
+
+def fun(arr):
+
+    arr=arr[::-1]
+
+arr=[1,2,3,4,5]
+
+fun(arr)
+
+print(arr)",
+        "options": {
+            "a": "[1,2,3,4,5]",
+            "b": "[5,4,3,2,1]",
+            "c": "[]",
+            "d": "NameError"
+        },
+        "answer": "a"
+        },
+       {
+        "question": "Which of the following is true about the stack?",
+        "options": {
+            "a": "Stack following LIFO order",
+            "b": "The time complexity to push and pop an element is O(1)",
+            "c": "It is a linear data Structure",
+            "d": "All of the above"
+        },
+        "answer": "d"
+        },
     {
         "question": "Which of these definitions correctly describes a module?",
         "options": {

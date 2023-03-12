@@ -280,5 +280,50 @@ PROBLEM_SETS = [
             "d": "It is not compatible with Python 3"
         },
         "answer": "c"
+    },
+     {
+        "question": "What is the output of the below code?
+
+myList=[1,2,3,5,3,4,6,9]
+
+myList[-6:6]",
+        "options": {
+            "a": "[]",
+            "b": "[3, 5, 3, 4]",
+            "c": "[4, 3, 5, 3]",
+            "d": "Index Error"
+        },
+        "answer": "b"
+    },
+     {
+        "question": "What is the run time of the below code?
+
+for i in range(n):
+
+    j=1
+
+    while(j<n):
+
+        print(i,j)
+
+        j*=2",
+        "options": {
+            "a": "O(n)",
+            "b": "O(n^2)",
+            "c": "O(log(n))",
+            "d": "O(n*log(n))"
+        },
+        "answer": "d"
+    },
+     {
+             "question": "What is the method that is bound to class but not the instance?",
+        "options": {
+            "a": "Static method",
+            "b": "Class method",
+            "c": "Main method",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
     }
 ]
