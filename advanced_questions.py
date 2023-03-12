@@ -44,8 +44,7 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-
-{
+    {
         "question": "What is the purpose of the __slots__ attribute in Python classes?",
         "options": {
             "a": "It is used to define a set of allowed attributes for a class instance",
@@ -55,8 +54,7 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-
-{
+    {
         "question": "Which of the following is not a Python built-in module for working with files?",
         "options": {
             "a": "os",
@@ -66,8 +64,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-
-{
+    {
         "question": "Which of the following is a Python decorator that can be used for caching expensive function calls?",
         "options": {
             "a": "@staticmethod",
@@ -77,8 +74,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-
-{
+    {
         "question": "What is the difference between a shallow copy and a deep copy in Python?",
         "options": {
             "a": "A shallow copy creates a copy of the object's reference while a deep copy creates a copy of the object's data.",
