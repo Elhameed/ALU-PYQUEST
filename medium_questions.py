@@ -160,7 +160,7 @@ PROBLEM_SETS = [
             "d": "'Python is great'"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the difference between a list and a tuple in Python?",
         "options": {
@@ -509,7 +509,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-     {
+    {
         "question": "What is a generator in Python?",
         "options": {
             "a": "The function that generates random numbers of specified count",
@@ -518,28 +518,8 @@ PROBLEM_SETS = [
             "d": "The function that returns a generic object"
         },
         "answer": "c"
-        },
-      {
-        "question": "What is the output of the below code?
-
-def fun(arr):
-
-    arr=arr[::-1]
-
-arr=[1,2,3,4,5]
-
-fun(arr)
-
-print(arr)",
-        "options": {
-            "a": "[1,2,3,4,5]",
-            "b": "[5,4,3,2,1]",
-            "c": "[]",
-            "d": "NameError"
-        },
-        "answer": "a"
-        },
-       {
+    },
+    {
         "question": "Which of the following is true about the stack?",
         "options": {
             "a": "Stack following LIFO order",
@@ -548,7 +528,7 @@ print(arr)",
             "d": "All of the above"
         },
         "answer": "d"
-        },
+    },
     {
         "question": "Which of these definitions correctly describes a module?",
         "options": {
@@ -587,6 +567,7 @@ print(arr)",
         },
         "answer": "c"
     },
+    {
         "question": "What do these lines print?\na = [5, 7, 9, 11]\na[-1]",
         "options": {
             "a": "-1",
@@ -616,7 +597,7 @@ print(arr)",
         },
         "answer": "b"
     },
-
+    {
         "question": "What does this python program output?\ndef dem(name, age):\n    print(name, age)\ndem(\"Ben\", 25)",
         "options": {
             "a": "25",
