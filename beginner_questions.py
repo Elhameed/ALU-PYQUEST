@@ -121,5 +121,17 @@ PROBLEM_SETS = [
             "d": "myFunction():"
         },
         "answer": "b"
-    }
+    },
+    {
+        "question": "What do these lines print?\n\n class User:\n\tid = 1\n\nprint(User.id)\n"
+",
+        "options": {
+            "a": "89
+",
+            "b": "None",
+            "c": "1",
+            "d": "98"
+            },
+        "answer": "1"
+    },
 ]
