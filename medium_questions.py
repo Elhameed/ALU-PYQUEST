@@ -364,6 +364,16 @@ PROBLEM_SETS = [
                 "d": "Nothing"
             },
             "answer": "d"
+        },
+        {
+            "question": "What will be the output of the following Python code?\ni = 1\nwhile True:\n\tif i%3 == 0:\n\tbreak\nprint(i)\n\ni + = 1\n",
+            "options": {
+                "a": "1 2 3,
+                "b": "error",
+                "c": "1 2",
+                "d": "none of the mentioned"
+            },
+            "answer": "b"
         }
 
 ]
