@@ -374,6 +374,56 @@ PROBLEM_SETS = [
                 "d": "none of the mentioned"
             },
             "answer": "b"
+        },
+        {
+            "question": "The following python program can work with ____ parameters.\ndef f(x):\n\tdef f1(*args, **kwargs):\n\tprint("Sanfoundry")\nreturn x(*args, **kwargs)\nreturn f1\n",
+            "options": {
+                "a": "any number of",
+                "b": "0",
+                "c": "1",
+                "d": "2"
+            },
+            "answer": "a"
+        },
+        {
+            "question": " What will be the output of the following Python function?\nmin(max(False,-3,-4), 2,7)\n",
+            "options": {
+                "a": "-4",
+                "b": "-2",
+                "c": "-3",
+                "d": "False"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "What will be the output of the following Python code?\nx = 'abcd'\nfor i in x:\n\tprint(i.upper())\n",
+            "options": {
+                "a":    "
+                        a
+                        B
+                        C
+                        D
+                        ",
+                "b": "a b c d",
+                "c": "error",
+                "d":    "  
+                        A
+                        B
+                        C
+                        D
+                        "
+            },
+            "answer": "d"
+        },
+        {
+            "question": " What will be the output of the following Python code?\nx = 'abcd'\nfor i in range(len(x)):\n\tprint(i)\n",
+            "options": {
+                "a": "-4",
+                "b": "-2",
+                "c": "-3",
+                "d": "False"
+            },
+            "answer": "d"
         }
 
 ]
