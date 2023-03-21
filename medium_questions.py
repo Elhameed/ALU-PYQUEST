@@ -312,6 +312,16 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
+        "question": "What do these lines print?\n\nclass User:\n\tid = 1:\n\n\n User.id = 98\n\nu = User\nu.id = 89\nprint(u.id)",
+        "options": {
+            "a": "89",
+            "b": "1",
+            "c": "none",
+            "d": "100"
+        },
+        "answer": "89"
+    },
+    {
         "question": "Which one of the following data structures in python is immutable?",
         "options": {
             "a": "Tuple",

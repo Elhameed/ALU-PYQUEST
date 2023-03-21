@@ -173,6 +173,16 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
+        "question": "What do these lines print?\n\n class User:\n\tid = 1\n\nprint(User.id)\n",
+        "options": {
+            "a": "89",
+            "b": "None",
+            "c": "1",
+            "d": "98"
+            },
+        "answer": "1"
+    },
+    {
         "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
         "options": {
             "a": "Less than 3",
