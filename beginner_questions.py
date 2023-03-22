@@ -188,6 +188,7 @@ PROBLEM_SETS = [
             "a": "Less than 3",
             "b": "Greater than or equal to 3",
             "c": "syntax error",
+            "d": "The code will not print anything"
         },
         "answer": "a"
     },
@@ -196,7 +197,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "Hello Adam",
             "b": "Hello",
-            "c": "sybntax error"
+            "c": "syntax error",
+            "d": "Adam Hello"
         },
         "answer": "a"
     },
@@ -205,7 +207,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "True",
             "b": "False",
-            "c": "Error"
+            "c": "Error",
+            "d": "I don't know"
         },
         "answer": "b"
     },
@@ -214,7 +217,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "True",
             "b": "False",
-            "c": "Error"
+            "c": "Error",
+            "d": "I don't know"
         },
         "answer": "b"
     },
@@ -223,7 +227,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "My age is 50",
             "b": "My age",
-            "c": "syntax error"
+            "c": "syntax error",
+            "d": "My age 50"
         },
         "answer": "c"
     },
@@ -232,7 +237,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "0 1 2 3 4 5 6",
             "b": "0 1 2 3 4 5 6 7",
-            "c": "None of the above"
+            "c": "0 1 2 3 4 5",
+            "d": "None of the above"
         },
         "answer": "a"
     },
@@ -241,7 +247,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "1 2 3 4 5",
             "b": "[1, 2, 3, 4, 5]",
-            "c": "syntax error"
+            "c": "1, 2, 3",
+            "d": "syntax error"
         },
         "answer": "a"
     },
@@ -250,7 +257,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "x is number 24",
             "b": "y is number 25",
-            "c": "syntax error"
+            "c": "x is number 25",
+            "d": "syntax error"
         },
         "answer": "a"
     },
@@ -259,7 +267,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "1",
             "b": "5",
-            "c": "syntax error"
+            "c": "4",
+            "d": "syntax error"
         },
         "answer": "b"
     },
@@ -268,7 +277,8 @@ PROBLEM_SETS = [
         "options": {
             "a": "3",
             "b": "5",
-            "c": "syntax error"
+            "c": "8",
+            "d": "syntax error"
         },
         "answer": "a"    
     },
@@ -279,24 +289,6 @@ PROBLEM_SETS = [
             "b": "they confuse the interpreter",
             "c": "they are used to indicate global variables",
             "d": "they slow down execution"
-        },
-        "answer": "a"
-    },
-    {
-        "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
-        "options": {
-            "a": "Less than 3",
-            "b": "Greater than or equal to 3",
-            "c": "syntax error",
-        },
-        "answer": "a"
-    },
-    {
-        "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
-        "options": {
-            "a": "Hello Adam",
-            "b": "Hello",
-            "c": "sybntax error"
         },
         "answer": "a"
     },
