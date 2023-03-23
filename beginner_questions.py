@@ -467,7 +467,7 @@ PROBLEM_SETS = [
         "options": {
             "a": "sys.version(1)",
             "b": "sys.version(0)",
-            "c": "sys.version(2)",
+            "c": "sys.version()",
             "d": "sys.version"
         },
         "answer": "d"
