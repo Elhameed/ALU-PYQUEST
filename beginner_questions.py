@@ -467,19 +467,9 @@ PROBLEM_SETS = [
         "options": {
             "a": "sys.version(1)",
             "b": "sys.version(0)",
-            "c": "sys.version()",
+            "c": "sys.version(2)",
             "d": "sys.version"
         },
         "answer": "d"
     },
-    {
-        "question": "What's the correct way to declare variables in Python?",
-        "options": {
-            "a": "set x = 5, y = 10, z = x + y, print(z) >> Output: 15",
-            "b": "x = 5\ny = 10\nz = x + y\nprint(z) >> Output: 15",
-            "c": "x = 5, y = 10, z = x + y\nprint(z) >> Output: 15",
-            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z) >> Output: 15"
-        },
-        "answer": "b"
-    }
 ]
