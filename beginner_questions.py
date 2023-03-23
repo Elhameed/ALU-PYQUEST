@@ -472,4 +472,14 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
+    {
+        "question": "What's the correct way to declare variables in Python?",
+        "options": {
+            "a": "set x = 5, y = 10, z = x + y, print(z) >> Output: 15",
+            "b": "x = 5\ny = 10\nz = x + y\nprint(z) >> Output: 15",
+            "c": "x = 5, y = 10, z = x + y\nprint(z) >> Output: 15",
+            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z) >> Output: 15"
+        },
+        "answer": "b"
+    }
 ]
