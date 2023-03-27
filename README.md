@@ -13,4 +13,3 @@ There are no challenges faced.
 Based on the current achievements of this project, We will focus on implementing the remaining features of the game, including the logic for keeping track of time, displaying the questions, accepting user input, checking the answers, and keeping track of scores. We will also incorporate error handling to prevent crashes or unexpected behavior during gameplay. Furthermore, We will test the game thoroughly to ensure it works as expected and make necessary improvements based on feedback. We will also work on the user interface to make it more appealing and user-friendly. Finally, We will ensure the code is well-documented and organized and adhere to best practices to facilitate maintenance and future updates.
 
 
-i
