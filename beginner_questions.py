@@ -5,20 +5,20 @@ PROBLEM_SETS = [
     {
         "question": "Which of these is an example of a simple program in Python?",
         "options": {
-            "a": "print('Hello, World!')\n >> Hello, World!",
-            "b": "def hello():\n\t print('Hello, Boss!')\n >> Hello, World!",
-            "c": "print('Hello, Python!') >> Hello, World!",
-            "d": "def world():\n\t print('Hello, Word!') >> Hello, World!"
+            "a": "print('Hello, World!')\n >>> Hello, World!",
+            "b": "def hello():\n\t print('Hello, Boss!')\n >>> Hello, World!",
+            "c": "print('Hello, Python!') >>> Hello, World!",
+            "d": "def world():\n\t print('Hello, Word!') >>> Hello, World!"
         },
         "answer": "a"
     },
     {
         "question": "What's the correct way to declare variables in Python?",
         "options": {
-            "a": "set x = 5, y = 10, z = x + y, print(z) >> Output: 15",
-            "b": "x = 5\ny = 10\nz = x + y\nprint(z) >> Output: 15",
-            "c": "x = 5, y = 10, z = x + y\nprint(z) >> Output: 15",
-            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z) >> Output: 15"
+            "a": "set x = 5, y = 10, z = x + y, print(z)\n >>> Output: 15",
+            "b": "x = 5\ny = 10\nz = x + y\nprint(z)\n >>> Output: 15",
+            "c": "x = 5, y = 10, z = x + y\nprint(z)\n >>> Output: 15",
+            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z)\n >>> Output: 15"
         },
         "answer": "b"
     },
@@ -180,7 +180,7 @@ PROBLEM_SETS = [
             "c": "1",
             "d": "98"
             },
-        "answer": "1"
+        "answer": "c"
     },
     {
         "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
@@ -325,10 +325,10 @@ PROBLEM_SETS = [
     {
         "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
         "options": {
-            "a": "66\n 0",
-            "b": "36\n 0",
-            "c": "66\n 3",
-            "d": "36\n 3"
+            "a": "66\n\t 0",
+            "b": "36\n\t 0",
+            "c": "66\n\t 3",
+            "d": "36\n\t 3"
         },
         "answer": "d"
     },
