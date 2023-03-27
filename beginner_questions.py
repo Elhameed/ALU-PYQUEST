@@ -193,7 +193,7 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
+        "question": "what will this line print?\n name = \"Adam\"\n print(\"Hello, \"+name)\n",
         "options": {
             "a": "Hello Adam",
             "b": "Hello",
@@ -223,7 +223,7 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
-        "question": "what will this line print?\n age = 50\n print("My age is "+ age)",
+        "question": "what will this line print?\n age = 50\n print(\"My age is \"+ age)",
         "options": {
             "a": "My age is 50",
             "b": "My age",
@@ -253,7 +253,7 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "what will this line print?\n x = 15\n y = 5\n if x > y:\n\t print("x is number 24")\n else:\n\t print("y is number 25")",
+        "question": "what will this line print?\n x = 15\n y = 5\n if x > y:\n\t print(\"x is number 24\")\n else:\n\t print(\"y is number 25\")",
         "options": {
             "a": "x is number 24",
             "b": "y is number 25",
@@ -333,7 +333,7 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-        "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
+        "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print(\"Hi\")\n elif a <= 30:\n\t print(\"Hello\")\n else:\n\t print(\"Know Program\")",
         "options": {
             "a": "Hi",
             "b": "Hello",

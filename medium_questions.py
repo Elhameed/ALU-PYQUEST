@@ -2,7 +2,7 @@
 
 PROBLEM_SETS = [
     {
-        "question": "What is the output of the following code?\n\n class Animal:\n\t def init(self, name):\n\t\t self.name = name\n\n class Dog(Animal):\n\t\t def bark(self):\n\t\t\t person1 = Person("John", 25)\n\t\t\t print(person1.name)\n",
+        "question": "What is the output of the following code?\n\n class Animal:\n\t def init(self, name):\n\t\t self.name = name\n\n class Dog(Animal):\n\t\t def bark(self):\n\t\t\t person1 = Person(\"John\", 25)\n\t\t\t print(person1.name)\n",
         "options": {
             "a": "age 25",
             "b": "john 25",
@@ -92,7 +92,7 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "What is the purpose of the pass keyword in Python?"
+        "question": "What is the purpose of the pass keyword in Python?",
         "options": {
             "a": "It is used to continue to the next iteration of a loop",
             "b": "It is used to break out of a loop",
@@ -102,7 +102,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "What does the join() method do in Python?"
+        "question": "What does the join() method do in Python?",
         "options": {
             "a": "Concatenates two strings together.",
             "b": "Removes all whitespace from a string.",
@@ -112,7 +112,7 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-        "question": "What is the difference between a local variable and a global variable in Python?"
+        "question": "What is the difference between a local variable and a global variable in Python?",
         "options": {
             "a": "A local variable is declared inside a function and can be accessed anywhere in the program, while a global variable is declared outside a function and can only be accessed within the function where it is declared.",
             "b": "A local variable is declared inside a function and can only be accessed within that function, while a global variable is declared outside a function and can be accessed anywhere in the program.",
@@ -122,12 +122,12 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
-        "question": "Which of the following is a valid way to open a file in Python for writing?"
+        "question": "Which of the following is a valid way to open a file in Python for writing?",
         "options": {
-            "a": "file = open("myfile.txt", "rb")",
-            "b": "file = open("myfile.txt", "w")",
-            "c": "file = open("myfile.txt", "read")",
-            "d": "file = open("myfile.txt", "a+")"
+            "a": "file = open(\"myfile.txt\", \"rb\")",
+            "b": "file = open(\"myfile.txt\", \"w\")",
+            "c": "file = open(\"myfile.txt\", \"read\")",
+            "d": "file = open(\"myfile.txt\", \"a+\")"
         },
         "answer": "b"
     },
@@ -182,7 +182,7 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
-        "question": "What is the purpose of the pass keyword in Python?"
+        "question": "What is the purpose of the pass keyword in Python?",
         "options": {
             "a": "It is used to continue to the next iteration of a loop",
             "b": "It is used to break out of a loop",
@@ -192,7 +192,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "What does the join() method do in Python?"
+        "question": "What does the join() method do in Python?",
         "options": {
             "a": "Concatenates two strings together.",
             "b": "Removes all whitespace from a string.",
@@ -202,7 +202,7 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-        "question": "What is the difference between a local variable and a global variable in Python?"
+        "question": "What is the difference between a local variable and a global variable in Python?",
         "options": {
             "a": "A local variable is declared inside a function and can be accessed anywhere in the program, while a global variable is declared outside a function and can only be accessed within the function where it is declared.",
             "b": "A local variable is declared inside a function and can only be accessed within that function, while a global variable is declared outside a function and can be accessed anywhere in the program.",
@@ -212,12 +212,12 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
-        "question": "Which of the following is a valid way to open a file in Python for writing?"
+        "question": "Which of the following is a valid way to open a file in Python for writing?",
         "options": {
-            "a": "file = open("myfile.txt", "rb")",
-            "b": "file = open("myfile.txt", "w")",
-            "c": "file = open("myfile.txt", "read")",
-            "d": "file = open("myfile.txt", "a+")"
+            "a": "file = open(\"myfile.txt\", \"rb\")",
+            "b": "file = open(\"myfile.txt\", \"w\")",
+            "c": "file = open(\"myfile.txt\", \"read\")",
+            "d": "file = open(\"myfile.txt\", \"a+\")"
         },
         "answer": "b"
     },
@@ -270,7 +270,7 @@ PROBLEM_SETS = [
             "d": "Undefined"
         },
         "answer": "c"
-    }
+    },
     {
         "question": "What is the purpose of the __init__ method in a Python class?",
         "options": {
@@ -620,7 +620,7 @@ PROBLEM_SETS = [
     {
         "question": "What will be the output of the following Python code?\ni = 1\nwhile True:\n\tif i%3 == 0:\n\tbreak\nprint(i)\n\ni + = 1\n",
         "options": {
-            "a": "1 2 3,"
+            "a": "1 2 3",
             "b": "error",
             "c": "1 2",
             "d": "none of the mentioned"
@@ -628,7 +628,7 @@ PROBLEM_SETS = [
         "answer": "b"
     },
     {
-        "question": "The following python program can work with ____ parameters.\ndef f(x):\n\tdef f1(*args, **kwargs):\n\tprint("Sanfoundry")\nreturn x(*args, **kwargs)\nreturn f1\n",
+        "question": "The following python program can work with ____ parameters.\ndef f(x):\n\tdef f1(*args, **kwargs):\n\tprint(\"Sanfoundry\")\nreturn x(*args, **kwargs)\nreturn f1\n",
         "options": {
             "a": "any number of",
             "b": "0",
@@ -666,7 +666,7 @@ PROBLEM_SETS = [
             "d": "False"
         },
         "answer": "d"
-    }
+    },
     {
         "question": "What is a generator in Python?",
         "options": {
