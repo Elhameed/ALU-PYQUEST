@@ -3,7 +3,7 @@
 import random
 import beginner_questions
 import medium_questions
-import adavnced_questions
+import advanced_questions
 
 # Define the game rules and guidelines as a string variable:
 RULES = """
@@ -19,9 +19,9 @@ At the end of the game, your total score will be displayed. Good luck!
 """
 
 #function to generate random questions from beginner to advanced
-BEGINNER_PROBLEMS = beginner_questions.PROBLEM
-MEDIUM_PROBLEMS = medium_questions.PROBLEM
-ADVANCED_PROBLEMS = advanced_questions.PROBLEM
+BEGINNER_PROBLEMS = beginner_questions.PROBLEM_SETS
+MEDIUM_PROBLEMS = medium_questions.PROBLEM_SETS
+ADVANCED_PROBLEMS = advanced_questions.PROBLEM_SETS
 
 def generate_problem_sets(difficulty_level):
     if difficulty_level == 'beginner':
