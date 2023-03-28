@@ -131,5 +131,106 @@ PROBLEM_SETS = [
             "d": "It is not compatible with Python 3"
         },
         "answer": "c"
-    }
+    },
+    {
+        "question": "What will this code print \nnum1 = 4\nnum2 = 2\nres = num1 * num2\n\nprint("Multiplication is", res)",
+        "options": {
+            "a": "4",
+            "b": "42",
+            "c": "8",
+            "d": "6"
+        },
+        "answer": "c"
+    },
+     {
+            "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, "w", encoding="utf-8") as f:\n\t\treturn f.write(text)",
+        "options": {
+            "a": "a function that writes a string to a text file (UTF8) and returns the number of characters written",
+            "b": "a function that appends a string at the end of a text file (UTF8) and returns the number of characters added",
+            "c": "afunction that returns an object (Python data structure) represented by a JSON string",
+            "d": "a function that writes an Object to a text file, using a JSON representation"
+        },
+         "answer": "a"
+    },
+       {
+            "question": "What does the function below do?\nimport json\n\ndef load_from_json_file(filename):\n\t\twith open(filename) as f:\n\t\treturn json.load(f)",
+        "options": {
+            "a": "writes an Object to a text file, using a JSON representation",
+            "b": "returns an object (Python data structure) represented by a JSON string",
+            "c": "creates an Object from a JSON file",
+            "d": "returns the JSON representation of an object (string)"
+        },
+        "answer": "c"
+    },
+      {
+            "question": "What function can be used to read input from the user in Python3?",
+        "options": {
+            "a": "raw_input()",
+            "b": "input()",
+            "c": "read_input()",
+            "d": "read_input()"
+        },
+         "answer": "b"
+    },
+      {
+            "question": "Which Python module is used to create network sockets?",
+        "options": {
+            "a": "Urllib",
+            "b": "network",
+            "c": "request",
+            "d": "socket"
+        },
+         "answer": "d"
+    },
+       {
+            "question": "What is the first step in test-driven development?",
+        "options": {
+            "a": "Write the code",
+            "b": "Debug the code",
+            "c": "Deploy the code",
+            "d": "Write the tests"
+        },
+         "answer": "d"
+    },
+      {
+            "question": "In object-relational mapping (ORM), what is an entity?",
+        "options": {
+            "a": "A database table",
+            "b": "A database column",
+            "c": "A Python class",
+            "d": "An SQL query"
+        },
+         "answer": "c"
+    },
+      {
+            "question": "What is a database connection pool?",
+        "options": {
+            "a": "A distributed database",
+            "b": "A cache of database connections that can be reused",
+            "c": "A backup copy of a database",
+            "d": "A group of users who share access to a database"
+        },
+         "answer": "b"
+    },
+       {
+            "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
+        "options": {
+            "a": "read()",
+            "b": "readline()",
+            "c": "readlines()",
+            "d": "file()"
+        },
+         "answer": "a"
+    },
+      {
+            "question": "Which of the following is not a benefit of using test-driven development (TDD)?",
+        "options": {
+            "a": "Faster development time",
+            "b": "Reduced maintenance costs",
+            "c": "Increased risk of bugs",
+            "d": "Improved code quality"
+        },
+         "answer": "c"
+    },
+
 ]
