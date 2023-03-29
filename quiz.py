@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+import time
 import random
 import beginner_questions
 import medium_questions
@@ -27,18 +28,86 @@ def generate_problem_sets(difficulty_level):
     if difficulty_level == 'beginner':
         return random.sample(BEGINNER_PROBLEMS, k=4)
     elif difficulty_level == 'medium':
-        return random.sample(MEDIUM_PROBELMS, k=4)
+        return random.sample(MEDIUM_PROBLEMS, k=4)
     elif difficulty_level == 'advanced':
         return random.sample(ADVANCED_PROBLEMS, k=4)
 
 # Define a function to play game
 def playgame():
+    print("Loading the game...")
+    time.sleep(2)
     print(RULES)
-    ready = input("Are you ready to start the game? Enter(yes/no): ")
+    ready = input("Are you ready to start the game? Enter(yes/no): ")    
     if ready.lower() == "yes":
         print("\nGreat! Let's start the game. \n")
+        print("Loading the game...")
+        time.sleep(1.5)
+        print("Please wait...")
+        time.sleep(1.5)
+        print("Ready!")
+        time.sleep(1.5)
+
+        difficulty_levels = ['beginner', 'medium', 'advanced']
+        score = 0
+        for level in difficulty_levels:
+            problem_set = generate_problem_sets(level)
+            for problem in problem_set:
+                print(f"\n{problem['question']}")
+                for option in problem['options']:
+                    print(f"{option}: {problem['options'][option]}")
+                start_time = time.time()
+                answer = input("Enter your answer: ")
+                elapsed_time = time.time() - start_time
+                if answer.strip().lower() == problem['answer'].lower() and elapsed_time <= 25:
+                    score += 10
+                    print("Correct!")
+                elif elapsed_time > 25:
+                    score -= 5
+                    print(f"The correct answer is: {problem['answer']}")
+                    print(f"You took too long to answer the question. Time elapsed: {elapsed_time:.2f} seconds")
+                else:
+                    score -= 5
+                    print(f"Incorrect! The correct answer is: {problem['answer']}")
+                print(f"Your current score is: {score}")
+                time.sleep(1)
+        print(f"\nYour final score is: {score}")
+        play_again = input("\nDo you want to play again? Enter(yes/no): ")
+        while play_again.lower() == 'yes':
+            print("Loading the game...")
+            time.sleep(1.5)
+            print("Please wait...")
+            time.sleep(1.5)
+            print("Ready!")
+            time.sleep(1.5)
+
+            difficulty_levels = ['beginner', 'medium', 'advanced']
+            score = 0
+            for level in difficulty_levels:
+                problem_set = generate_problem_sets(level)
+                for problem in problem_set:
+                    print(f"\n{problem['question']}")
+                    for option in problem['options']:
+                        print(f"{option}: {problem['options'][option]}")
+                    start_time = time.time()
+                    answer = input("Enter your answer: ")
+                    elapsed_time = time.time() - start_time
+                    if answer.strip().lower() == problem['answer'].lower() and elapsed_time <= 25:
+                        score += 10
+                        print("Correct!")
+                    elif elapsed_time > 25:
+                    score -= 5
+                    print(f"The correct answer is: {problem['answer']}")
+                    print(f"You took too long to answer the question. Time elapsed: {elapsed_time:.2f} seconds")
+                    else:
+                        score -= 5
+                        print(f"Incorrect! The correct answer is: {problem['answer']}")
+                    print(f"Your current score is: {score}")
+                    time.sleep(1)
+            print(f"\nYour final score is: {score}")
+            play_again = input("\nDo you want to play again? Enter(yes/no): ")
+        else:
+            print("\nThank you for playing! Goodbye.")
     else:
         print("\nNo problem. See you again!\n")
-
 
 playgame()

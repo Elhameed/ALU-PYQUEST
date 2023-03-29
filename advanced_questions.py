@@ -283,7 +283,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "What will this code print \nnum1 = 4\nnum2 = 2\nres = num1 * num2\n\nprint("Multiplication is", res)",
+        "question": "What will this code print \nnum1 = 4\nnum2 = 2\nres = num1 * num2\n\nprint(\"Multiplication is\", res)",
         "options": {
             "a": "4",
             "b": "42",
@@ -293,7 +293,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
      {
-            "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, "w", encoding="utf-8") as f:\n\t\treturn f.write(text)",
+            "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, \"w\", encoding=\"utf-8\") as f:\n\t\treturn f.write(text)",
         "options": {
             "a": "a function that writes a string to a text file (UTF8) and returns the number of characters written",
             "b": "a function that appends a string at the end of a text file (UTF8) and returns the number of characters added",
@@ -379,9 +379,11 @@ PROBLEM_SETS = [
             "b": "Reduced maintenance costs",
             "c": "Increased risk of bugs",
             "d": "Improved code quality"
+            },
+            "answer": "c"
         },
-         "answer": "c"
-        "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
+        {
+            "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
         "options": {
             "a": "[]",
             "b": "[3, 5, 3, 4]",
