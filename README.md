@@ -8,7 +8,7 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 - [Project Overview](#project-overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Updating ALU-PyQuest](#Updating ALU-PyQuest)
+- [Updating ALU-PyQuest](#updating-alu-pyquest)
 - [How To Play](#how-to-play)
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
