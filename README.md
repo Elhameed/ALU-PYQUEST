@@ -50,10 +50,10 @@ Coming soon...
 ## Demo Video
 You can find a demo of the game at the following link: https://youtu.be/demo-video-link
 
-## LICENSE :scroll:
+## License :scroll:
 ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
-## Contribuors
+## Contributors
 - [Sadick Achuli](https://github.com/Sadickachuli)
 - [Abdulhameed Teniola Ajani](https://github.com/Elhameed)
 - [Noella Uwayo](https://github.com/n-uwayo)
