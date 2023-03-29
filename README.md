@@ -49,7 +49,7 @@ user@User:~$
 
 To install ALU-PYQUEST, please follow the steps below:
 1. Make sure you have Python installed on your computer. If you do not have Python installed, download and install the latest version of Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-2. Open the command prompt or terminal on your computer.
+2. 💻 Open the command prompt or terminal on your computer.
 3. Install ALU-PyQuest using the following command:
 ```sh
 pip install ALU-PyQuest
@@ -58,9 +58,9 @@ pip install ALU-PyQuest
 ```sh
 PyQuest
 ```
-5. The game will start, and you will be presented with a series of questions related to the Python programming language from beginner to advanced level.
+5. The game 🎮 will start, and you will be presented with a series of questions related to the Python programming language 🐍 from beginner to advanced level 📈.
 
-That's it! You're all set to play ALU-PyQuest.
+That's it! You're all set to play ALU-PyQuest 🎉.
 
 <h2 id="updating-alu-pyquest">Updating ALU-PyQuest 🔄</h2>
 
