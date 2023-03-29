@@ -502,4 +502,88 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
+      {
+        "question": "Which of the following statements is correct for variable names in Python language?",
+        "options": {
+            "a": "All variable names must begin with an underscore.",
+            "b": "Unlimited length",
+            "c": "The variable name length is a maximum of 2.",
+            "d": "All of the above"
+        },
+        "answer": "b"
+    },
+       {
+        "question": "Which of the following declarations is incorrect in python language?",
+        "options": {
+            "a": "xyzp = 5,000,000",
+            "b": "x y z p = 5000 6000 7000 8000",
+            "c": "x,y,z,p = 5000, 6000, 7000, 8000",
+            "d": "x_y_z_p = 5,000,000"
+        },
+        "answer": "b"
+    },
+          {
+        "question": "Which of the following words cannot be a variable in python language?",
+        "options": {
+            "a": "_val",
+            "b": "val",
+            "c": "try",
+            "d": "_try_"
+        },
+        "answer": "c"
+    },
+              {
+        "question": "Which of the following operators is the correct option for power(ab)?",
+        "options": {
+            "a": "a ^ b",
+            "b": "a**b",
+            "c": "a ^ ^ b",
+            "d": "a ^ * b"
+        },
+        "answer": "b"
+                {
+        "question": "Which of the following precedence order is correct in Python?",
+        "options": {
+            "a": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
+            "b": "Multiplication, Division, Addition, Subtraction, Parentheses, Exponential",
+            "c": "Division, Multiplication, Addition, Subtraction, Parentheses, Exponential",
+            "d": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction"
+        },
+        "answer": "a"
+                {
+        "question": "Which one of the following has the same precedence level?",
+        "options": {
+            "a": "Division, Power, Multiplication, Addition and Subtraction",
+            "b": "Division and Multiplication",
+            "c": "Subtraction and Division",
+            "d": "Power and Division"
+        },
+        "answer": "b"
+                {
+        "question": "Which one of the following has the highest precedence in the expression?",
+        "options": {
+            "a": "Division",
+            "b": "Subtraction",
+            "c": "Power",
+            "d": "Parentheses"
+        },
+        "answer": "d"
+              {
+        "question": "Which of the following functions is a built-in function in python language?",
+        "options": {
+            "a": "val()",
+            "b": "print()",
+            "c": "print()",
+            "d": "None of these"
+        },
+        "answer": "b"
+           {
+        "question": "In which year was the Python language developed?",
+        "options": {
+            "a": "1995",
+            "b": "1972",
+            "c": "1981",
+            "d": "1989"
+        },
+        "answer": "d"
   ]
