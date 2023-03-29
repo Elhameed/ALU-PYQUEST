@@ -20,9 +20,9 @@ To get started with ALU-PYQUEST, simply follow these steps:
 ```sh
 git clone https://github.com/Elhameed/ALU-PYQUEST.git
 ```
-2. Install the necessary dependencies by running the following command in your terminal:
+2. Navigate into the cloned repository by running the following command in your terminal:
 ```sh
-pip install -r requirements.txt
+cd ALU-PYQUEST
 ```
 3. Run the game by executing the following command in your terminal:
 ```sh
