@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ALU-PYQUEST
+Version: 0.1.0
+Summary: Python Programming quiz
+Home-page: UNKNOWN
+Author: Teniola Ajani
+Author-email: a.ajani@alustudent.com
+License: MIT
+Description: A python programming quiz that tests users on the concepts of python programming
+Keywords: python,quiz,game
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
