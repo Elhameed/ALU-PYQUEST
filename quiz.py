@@ -51,8 +51,10 @@ def playgame():
         score = 0
         for level in difficulty_levels:
             problem_set = generate_problem_sets(level)
+            print(f"\nLevel: {level.capitalize()}")
+            counter = 1
             for problem in problem_set:
-                print(f"\n{problem['question']}")
+                print(f"\n{counter}. {problem['question']}")
                 for option in problem['options']:
                     print(f"{option}: {problem['options'][option]}")
                 start_time = time.time()
@@ -69,6 +71,7 @@ def playgame():
                     score -= 5
                     print(f"Incorrect! The correct answer is: {problem['answer']}")
                 print(f"Your current score is: {score}")
+                counter += 1
                 time.sleep(1)
         print(f"\nYour final score is: {score}")
         play_again = input("\nDo you want to play again? Enter(yes/no): ")
@@ -84,8 +87,10 @@ def playgame():
             score = 0
             for level in difficulty_levels:
                 problem_set = generate_problem_sets(level)
+                print(f"\nLevel: {level.capitalize()}")
+                counter = 1
                 for problem in problem_set:
-                    print(f"\n{problem['question']}")
+                    print(f"\n{counter}. {problem['question']}")
                     for option in problem['options']:
                         print(f"{option}: {problem['options'][option]}")
                     start_time = time.time()
@@ -95,13 +100,14 @@ def playgame():
                         score += 10
                         print("Correct!")
                     elif elapsed_time > 25:
-                    score -= 5
-                    print(f"The correct answer is: {problem['answer']}")
-                    print(f"You took too long to answer the question. Time elapsed: {elapsed_time:.2f} seconds")
+                        score -= 5
+                        print(f"The correct answer is: {problem['answer']}")
+                        print(f"You took too long to answer the question. Time elapsed: {elapsed_time:.2f} seconds")
                     else:
                         score -= 5
                         print(f"Incorrect! The correct answer is: {problem['answer']}")
                     print(f"Your current score is: {score}")
+                    counter += 1
                     time.sleep(1)
             print(f"\nYour final score is: {score}")
             play_again = input("\nDo you want to play again? Enter(yes/no): ")
