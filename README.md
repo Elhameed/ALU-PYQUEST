@@ -64,5 +64,8 @@ ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file
 - [Iraduhaye Bukuru Paterne](https://github.com/IraduhayeBukuruPaterne1)
 
 ## Acknowledgement
-- Special thanks to our instructor, Mr. Herve Musagwa for reviewing our project and providing feedback that helped improve its quality.
+- Special thanks to our instructor, Mr. Herve Musangwa for reviewing our project and providing feedback that helped improve its quality.
 - We also want to acknowledge the BSE Faculty for challenging us to apply the technologies we learned during the term to develop a project that showcases our skills and knowledge in the field.
+
+----------
+- If you found ALU-PYQUEST useful, please consider giving this repo a star ⭐️!
