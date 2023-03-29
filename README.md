@@ -15,7 +15,7 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 - [Contributors](#contributors)
 - [Acknowlegdement](#acknowledgement)
 
-## Project Overview 🚀
+## Project Overview 
 "ALU PyQuest" is a Python-based scavenger hunt-style game designed for Software Engineering students to reinforce their understanding of the Python curriculum. The game presents a series of questions from beginner's to advanced level, with a limited time to answer each question. The program utilizes Python functions such as Input/Output, loops, conditional statements, data structures, exception handling, scoring system, and a high score feature to check your scores to provide an interactive and fun learning experience for students.
 
 ## Prerequisites 📋
