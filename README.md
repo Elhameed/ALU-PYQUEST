@@ -45,7 +45,7 @@ user@User:~/$ python3 quiz.py
 8. At the end of the game, you will see your total score.
 
 ## Screenshots
-
+Coming soon...
 
 ## Demo Video
 You can find a demo of the game at the following link: https://youtu.be/demo-video-link
