@@ -8,6 +8,7 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 - [Project Overview](#project-overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Updating ALU-PyQuest](#Updating ALU-PyQuest)
 - [How To Play](#how-to-play)
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
@@ -59,8 +60,15 @@ PyQuest
 ```
 5. The game will start, and you will be presented with a series of questions related to the Python programming language from beginner to advanced level.
 
-
 That's it! You're all set to play ALU-PyQuest.
+
+<h2 id="updating-alu-pyquest">Updating ALU-PyQuest 📚</h2>
+
+To update ALU-PYQUEST to the latest version, you can run the following command in your terminal or command prompt:
+```sh
+pip install --upgrade ALU-PYQUEST
+```
+This will update your installation of ALU-PYQUEST to the latest version available on PyPI.
 
 <h2 id="how-to-play">How To Play 🎮</h2> 
 
