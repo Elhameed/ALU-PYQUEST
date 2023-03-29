@@ -16,6 +16,8 @@ You will be presented with a series of questions related to the Python curriculu
 
 For each correct answer, you will earn 10 points, and for each incorrect answer or if you run out of time, 5 points will be deducted from your score. You will have 25 seconds for each question.
 
+In total, you will be asked 12 questions, 4 questions for each level of difficulty.
+
 At the end of the game, your total score will be displayed. Good luck!
 """
 
