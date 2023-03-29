@@ -12,3 +12,11 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 - [Contributors](#contributors)
 - [Acknowlegdement](#acknowledgement)
 
+### Getting Started
+To get started with ALU-PYQUEST, simply follow these steps:
+1. Clone the repository onto your local machine
+2. Install the necessary dependencies by running `pip install -r requirements.txt` in your terminal
+3. Run the game by executing `python3 quiz.py` in your terminal
+
+### Prerequisites
+Before playing ALU-PYQUEST, you should have a basic understanding of the Python programming language. You should also have Python 3.x installed on your machine.
