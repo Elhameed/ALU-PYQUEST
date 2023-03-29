@@ -5,7 +5,7 @@
 ALU PYQUEST is a game designed to test your knowledge of Python programming language. It consists of a series of questions related to the Python curriculum, presented one at a time, starting from beginner's level to advanced level. You will have a limited time to answer each question, and for each correct answer, you will earn 10 points, while for each incorrect answer or if you run out of time, 5 points will be deducted from your score. 
 
 ## Table of Contents 📑
-- [Getting Started](#getting-started)
+- [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [How To Play](#how-to-play)
@@ -15,7 +15,7 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 - [Contributors](#contributors)
 - [Acknowlegdement](#acknowledgement)
 
-## Getting Started 🚀
+## Overview
 
 
 ## Prerequisites 📋
@@ -70,7 +70,7 @@ user@User:~/$ PyQuest
 6. For each correct answer, you will earn `10` points.
 7. For each incorrect answer or if you run out of time, `5` points will be deducted from your score.
 8. At the end of the game, you will see your total score.
-9. You will also be provided with the ption to view your high scores.
+9. You will also be provided with the option to view your high scores.
 
 ## Screenshots 📷
 Coming soon...
