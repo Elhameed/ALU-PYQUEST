@@ -36,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
 1. Open the terminal and navigate to the project directory.
 2. Run the following command to start the game:
 ```sh
-user@User:$ python3 quiz.py
+user@User:~/$ python3 quiz.py
 ```
 4. Read the question and choose the correct answer from the given options.
 5. You have 25 seconds to answer each question.
