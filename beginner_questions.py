@@ -492,4 +492,14 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
+    {
+        "question": "Which of the following is not a keyword in Python language?",
+        "options": {
+            "a": "val",
+            "b": "raise",
+            "c": "try",
+            "d": "with"
+        },
+        "answer": "a"
+    },
   ]
