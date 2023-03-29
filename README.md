@@ -62,7 +62,7 @@ PyQuest
 
 That's it! You're all set to play ALU-PyQuest.
 
-<h2 id="updating-alu-pyquest">Updating ALU-PyQuest 📚</h2>
+<h2 id="updating-alu-pyquest">Updating ALU-PyQuest 🔄</h2>
 
 To update ALU-PYQUEST to the latest version, you can run the following command in your terminal or command prompt:
 ```sh
