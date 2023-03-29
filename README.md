@@ -80,9 +80,11 @@ user@User:~/$ PyQuest
 Coming soon...
 
 <h2 id="demo-video">Demo Video 🎥</h2> 
+
 You can find a demo of the game at the following link: https://youtu.be/demo-video-link
 
 <h2 id="license">License 📄</h2> 
+
 ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
 <h2 id="contributors">Contributors 👥</h2>  
