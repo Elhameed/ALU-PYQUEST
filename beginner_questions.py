@@ -472,4 +472,24 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-]
+  {
+        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "options": {
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Why does the name of local variables start with an underscore discouraged?",
+        "options": {
+            "a": "To identify the variable",
+            "b": "It confuses the interpreter",
+            "c": "It indicates a private variable of a class",
+            "d": "None of these"
+        },
+        "answer": "c"
+    },
+  ]
