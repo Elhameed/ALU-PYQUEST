@@ -643,9 +643,9 @@ PROBLEM_SETS = [
             "a": "-4",
             "b": "-2",
             "c": "-3",
-            "d": "False"
+            "d": "7"
         },
-        "answer": "d"
+        "answer": "c"
     },
     {
         "question": "What will be the output of the following Python code?\nx = 'abcd'\nfor i in x:\n\tprint(i.upper())\n",
