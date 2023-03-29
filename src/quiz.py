@@ -63,7 +63,7 @@ def playgame():
     #load and display high scores
     high_scores = load_high_scores()
     if high_scores:
-        print("High scores:")
+        print("========== High Scores ==========")
         for i, (name, score) in enumerate(high_scores[:5]):
             print(f"{i+1}. {name}: {score}")
     
@@ -117,7 +117,7 @@ def playgame():
         #asks user to view high score
         view_high_scores = input("\nDo you want to view high scores? Enter(yes/no): ")
         if view_high_scores.lower() == "yes":
-            print("\nHigh scores:")
+            print("\n========== High Scores ==========")
             for i, (name, score) in enumerate(high_scores[:5]):
                 print(f"{i+1}. {name}: {score}")
 
@@ -169,7 +169,7 @@ def playgame():
             #asks user to view high core
             view_high_scores = input("\nDo you want to view high scores? Enter(yes/no): ")
             if view_high_scores.lower() == "yes":
-                print("\nHigh scores:")
+                print("\n========== High Scores ==========")
                 for i, (name, score) in enumerate(high_scores[:5]):
                     print(f"{i+1}. {name}: {score}")
 
