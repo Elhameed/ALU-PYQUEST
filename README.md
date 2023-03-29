@@ -54,7 +54,9 @@ pip install ALU-PyQuest
 ```sh
 PyQuest
 ```
-5. The game will start, and you will be presented with a series of questions related to the Python programming language.
+5. The game will start, and you will be presented with a series of questions related to the Python programming language from beginner to advanced level.
+
+
 That's it! You're all set to play ALU-PyQuest.
 
 ## How To Play 🎮
