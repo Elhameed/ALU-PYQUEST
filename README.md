@@ -63,6 +63,7 @@ PyQuest
 That's it! You're all set to play ALU-PyQuest.
 
 <h2 id="how-to-play">How To Play 🎮</h2> 
+
 1. Open the command prompt or terminal on your computer.
 2. Run the following command to start the game:
 ```sh
@@ -85,6 +86,7 @@ You can find a demo of the game at the following link: https://youtu.be/demo-vid
 ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
 <h2 id="contributors">Contributors 👥</h2>  
+
 - [Sadick Achuli](https://github.com/Sadickachuli)
 - [Abdulhameed Teniola Ajani](https://github.com/Elhameed)
 - [Noella Uwayo](https://github.com/n-uwayo)
@@ -95,6 +97,7 @@ ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file
 - [Iraduhaye Bukuru Paterne](https://github.com/IraduhayeBukuruPaterne1)
 
 <h2 id="acknowledgement">Acknowledgement 🙏</h2> 
+
 - Special thanks to our instructor, [Mr. Hervé Musangwa](https://www.linkedin.com/in/hervé-musangwa-67478a112/) for reviewing our project and providing feedback that helped improve its quality.
 - We also want to acknowledge the BSE Faculty for challenging us to apply the technologies we learned during the term to develop a project that showcases our skills and knowledge in the field.
 
