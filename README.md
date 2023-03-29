@@ -18,7 +18,7 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 <h2 id="project-overview">Project Overview 📋</h2>
 "ALU PyQuest" is a Python-based scavenger hunt-style game designed for Software Engineering students to reinforce their understanding of the Python curriculum. The game presents a series of questions from beginner's to advanced level, with a limited time to answer each question. The program utilizes Python functions such as Input/Output, loops, conditional statements, data structures, exception handling, scoring system, and a high score feature to check your scores to provide an interactive and fun learning experience for students.
 
-## Prerequisites 
+<h2 id="prerequisites">Prerequisites 📚</h2> 
 Before installing ALU-PYQUEST, you will need to have pip installed. To check if you have pip installed, open your terminal window and run the following command:
 ```sh
 pip --version
@@ -42,7 +42,7 @@ pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 user@User:~$
 ```
 
-## Installation 
+<h2 id="installation">Installation 💻</h2>  
 To install ALU-PYQUEST, please follow the steps below:
 1. Make sure you have Python installed on your computer. If you do not have Python installed, download and install the latest version of Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Open the command prompt or terminal on your computer.
@@ -59,7 +59,7 @@ PyQuest
 
 That's it! You're all set to play ALU-PyQuest.
 
-## How To Play 
+<h2 id="how-to-play">How To Play 🎮</h2> 
 1. Open the command prompt or terminal on your computer.
 2. Run the following command to start the game:
 ```sh
@@ -72,16 +72,16 @@ user@User:~/$ PyQuest
 8. At the end of the game, you will see your total score.
 9. You will also be provided with the option to view your high scores.
 
-## Screenshots 
+<h2 id="screenshots">Screenshots 📷</h2> 
 Coming soon...
 
-## Demo Video 
+<h2 id="demo-video">Demo Video 🎥</h2> 
 You can find a demo of the game at the following link: https://youtu.be/demo-video-link
 
-## License 
+<h2 id="license">License 📄</h2> 
 ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
-## Contributors 
+<h2 id="contributors">Contributors 👥</h2>  
 - [Sadick Achuli](https://github.com/Sadickachuli)
 - [Abdulhameed Teniola Ajani](https://github.com/Elhameed)
 - [Noella Uwayo](https://github.com/n-uwayo)
@@ -91,7 +91,7 @@ ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file
 - [Innocent Manzi](https://github.com/innocentmanzi)
 - [Iraduhaye Bukuru Paterne](https://github.com/IraduhayeBukuruPaterne1)
 
-## Acknowledgement 
+<h2 id="acknowledgement">Acknowledgement 🙏</h2> 
 - Special thanks to our instructor, [Mr. Hervé Musangwa](https://www.linkedin.com/in/hervé-musangwa-67478a112/) for reviewing our project and providing feedback that helped improve its quality.
 - We also want to acknowledge the BSE Faculty for challenging us to apply the technologies we learned during the term to develop a project that showcases our skills and knowledge in the field.
 
