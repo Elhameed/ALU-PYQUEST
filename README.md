@@ -16,9 +16,11 @@ ALU PYQUEST is a game designed to test your knowledge of Python programming lang
 - [Acknowlegdement](#acknowledgement)
 
 <h2 id="project-overview">Project Overview 📋</h2>
+
 "ALU PyQuest" is a Python-based scavenger hunt-style game designed for Software Engineering students to reinforce their understanding of the Python curriculum. The game presents a series of questions from beginner's to advanced level, with a limited time to answer each question. The program utilizes Python functions such as Input/Output, loops, conditional statements, data structures, exception handling, scoring system, and a high score feature to check your scores to provide an interactive and fun learning experience for students.
 
 <h2 id="prerequisites">Prerequisites 📚</h2> 
+
 Before installing ALU-PYQUEST, you will need to have pip installed. To check if you have pip installed, open your terminal window and run the following command:
 ```sh
 pip --version
@@ -43,6 +45,7 @@ user@User:~$
 ```
 
 <h2 id="installation">Installation 💻</h2>  
+
 To install ALU-PYQUEST, please follow the steps below:
 1. Make sure you have Python installed on your computer. If you do not have Python installed, download and install the latest version of Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Open the command prompt or terminal on your computer.
