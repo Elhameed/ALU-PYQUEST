@@ -22,7 +22,7 @@ git clone https://github.com/Elhameed/ALU-PYQUEST.git
 ```sh
 pip install -r requirements.txt
 ```
-3. Run the game by executing in your terminalby running the following command:
+3. Run the game by executing the following command in your terminal:
 ```sh
 python3 quiz.py
 ```
