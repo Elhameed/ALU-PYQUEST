@@ -40,6 +40,7 @@ You should see something like:
 user@User:~$ pip --version
 pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 user@User:~$
+```
 
 ## Installation
 To install ALU-PYQUEST, please follow the steps below:
