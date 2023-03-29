@@ -28,7 +28,40 @@ python3 quiz.py
 ```
 
 ### Prerequisites
-- `Python 3.6` or higher
-- Basic understanding of Python programming concepts
+Before you begin, ensure you have met the following requirements:
+- You have installed the latest version of Python.
+- You have a basic understanding of Python programming language.
 
 ### How To Play
+1. Open the terminal and navigate to the project directory.
+2. Run the following command to start the game:
+```sh
+user@User$ python3 quiz.py
+```
+4. Read the question and choose the correct answer from the given options.
+5. You have 25 seconds to answer each question.
+6. For each correct answer, you will earn 10 points.
+7. For each incorrect answer or if you run out of time, 5 points will be deducted from your score.
+8. At the end of the game, you will see your total score.
+
+### Screenshots
+
+
+### Demo Video
+You can find a demo of the game at the following link: https://youtu.be/demo-video-link
+
+### LICENSE :scroll:
+AI Commit is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+
+### Contribuors
+- [Sadick Achuli](https://github.com/Sadickachuli)
+- [Abdulhameed Teniola Ajani](https://github.com/Elhameed)
+- [Noella Uwayo](https://github.com/n-uwayo)
+- [Sabir Walid](https://github.com/SabirWalid)
+- [Mohammed Yasin](https://github.com/MohamedAYasin)
+- [Iranzi Prince](https://github.com/iranziprince01)
+- [Innocent Manzi](https://github.com/innocentmanzi)
+- [Iraduhaye Paterne](https://github.com/IraduhayeBukuruPaterne1)
+
+### Acknowledgement
+
