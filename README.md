@@ -28,7 +28,7 @@ python3 quiz.py
 ```
 
 ### Prerequisites
-- Python 3.6 or higher
+- `Python 3.6` or higher
 - Basic understanding of Python programming concepts
 
 ### How To Play
