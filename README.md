@@ -63,5 +63,5 @@ ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file
 - [Innocent Manzi](https://github.com/innocentmanzi)
 - [Iraduhaye Paterne](https://github.com/IraduhayeBukuruPaterne1)
 
-### Acknowledgement
+## Acknowledgement
 
