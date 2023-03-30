@@ -471,7 +471,8 @@ PROBLEM_SETS = [
             "d": "sys.version"
         },
         "answer": "d"
-          {
+    },
+    {
         "question": "What is the maximum possible length of an identifier?",
         "options": {
             "a": "16",
@@ -481,9 +482,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-
- {
- {
+    {
         "question": "Which of the following is used to define a block of code in Python language?",
         "options": {
             "a": "Indentation",
@@ -493,7 +492,7 @@ PROBLEM_SETS = [
         },
         "answer": "a"
     },
-{
+    {
         "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
         "options": {
             "a": "sys.version(1)",
@@ -513,7 +512,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-     {
+    {
         "question": "Why are local variable names beginning with an underscore discouraged?",
         "options": {
             "a": "they are used to indicate a private variables of a class",
@@ -533,15 +532,17 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
-    "question": "Which of the following declarations is incorrect?",
+    {
+        "question": "Which of the following declarations is incorrect?",
         "options": {
             "a": "_x = 2",
             "b": "__x = 3",
             "c": "__xyz__ = 5",
             "d": "None of these"
         },
-        {
+        "answer": "d"
+    },
+    {
         "question": "what will this line print?\n first_list = [1 2 3 4 5]\n print(len(first_list))",
         "options": {
             "a": "1",
@@ -561,7 +562,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-     {
+    {
         "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
         "options": {
             "a": "sys.version(1)",
