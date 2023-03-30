@@ -621,5 +621,135 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "b"
+    },
+    {
+        "question": "What is the syntax to print \"Hello, World!\" in Python?",
+        "options":{
+            "a": "print('Hello, World!')",
+            "b": "print('Hello World!')",
+            "c": "print(Hello, World!)",
+            "d": "print('Hello', 'World!')"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the result of 7 % 3 in Python?",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "answer": "b"
+    },
+    {
+        "question":"How do you concatenate two strings in Python?",
+        "options": {
+            "a": "Using the '+' operator",
+            "b": "Using the '-' operator",
+            "c": "Using the '*' operator",
+            "d": "Using the '/' operator"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you access the first element of a list in Python?",
+        "options": {
+            "a": "list[0]",
+            "b": "list[1]",
+            "c": "list[-1]",
+            "d": "list[-2]"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the syntax to write an if statement in Python?",
+        "options": {
+            "a": "if condition:",
+            "b": "if (condition)",
+            "c": "if {condition}",
+            "d": "if [condition]"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the syntax to write a for loop in Python?",
+        "options": {
+            "a": "for i in range(n):",
+            "b": "for i in n:",
+            "c": "for i in list:",
+            "d": "for i in dictionary:"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you exit a loop prematurely in Python?",
+        "options": {
+            "a": "break",
+            "b": "continue",
+            "c": "pass",
+            "d": "return"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you find the length of a string in Python?",
+        "options": {
+            "a": "len(string)",
+            "b": "string.length()",
+            "c": "string.len()",
+            "d": "length(string)"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you add an element to the end of a list in Python?",
+        "options": {
+            "a": "list.append(element)",
+            "b": "list.add(element)",
+            "c": "list.insert(element)",
+            "d": "list.extend(element)"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the difference between '==' and '!=' operators in Python?",
+        "options": {
+            "a": "'==' checks for equality, '!=' checks for inequality",
+            "b": "'==' checks for inequality, '!=' checks for equality",
+            "c": "'==' checks for identity, '!=' checks for equality",
+            "d": "'==' checks for equality, '!=' checks for identity"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"Write a Python program to print the even numbers from 0 to 10.",
+        "options": {
+            "a": "for i in range(0, 11, 2):\n    print(i)",
+            "b": "for i in range(11):\n    if i % 2 == 0:\n        print(i)",
+            "c": "for i in range(11):\n    if i % 2 != 0:\n        print(i)",
+            "d": "for i in range(0, 10):\n    if i % 2 == 0:\n        print(i)"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"Write a Python program to find the maximum element in a list.",
+        "options": {
+            "a": "my_list = [1, 2, 3, 4, 5]\nprint(max(my_list))",
+            "b": "my_list = [1, 2, 3, 4, 5]\nmax_element = my_list[0]\nfor i in my_list:\n    if i > max_element:\n        max_element = i\nprint(max_element)",
+            "c": "my_list = [1, 2, 3, 4, 5]\nmy_list.sort()\nprint(my_list[-1])",
+            "d": "my_list = [1, 2, 3, 4, 5]\nmy_list.reverse()\nprint(my_list[0])"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What's the output of the following code?\n x = 5\n y = 3\n print(x % y)",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "answer": "b"
     }
 ]
