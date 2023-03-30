@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ALU-PyQuest',
-    version='0.1.7',
+    version='0.1.9',
     packages=['src'],
     install_requires=[
         # list your dependencies here

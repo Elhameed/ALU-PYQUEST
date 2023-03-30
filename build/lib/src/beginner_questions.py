@@ -280,7 +280,7 @@ PROBLEM_SETS = [
             "c": "8",
             "d": "syntax error"
         },
-        "answer": "a"    
+        "answer": "a"
     },
     {
         "question": "Why are local variable names beginning with an underscore discouraged?",
@@ -472,7 +472,27 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-  {
+    {
+        "question": "What is the maximum possible length of an identifier?",
+        "options": {
+            "a": "16",
+            "b": "34",
+            "c": "64",
+            "d": "none of the mentioned"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Which of the following is used to define a block of code in Python language?",
+        "options": {
+            "a": "Indentation",
+            "b": "Key",
+            "c": "Brackets",
+            "d": "All of the mentioned"
+        },
+        "answer": "a"
+    },
+    {
         "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
         "options": {
             "a": "sys.version(1)",
@@ -483,107 +503,303 @@ PROBLEM_SETS = [
         "answer": "d"
     },
     {
-        "question": "Why does the name of local variables start with an underscore discouraged?",
+        "question": "What will be the output of the following Python code?\n\n>>> str1 = 'hello'\n>>> str2 = ','\n>>> str3 = 'world'\n>>> str1[-1:]",
         "options": {
-            "a": "To identify the variable",
-            "b": "It confuses the interpreter",
-            "c": "It indicates a private variable of a class",
-            "d": "None of these"
+            "a": "olleh",
+            "b": "hello",
+            "c": "h",
+            "d": "o"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "options": {
+            "a": "they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Select the correct output of the following String operations\n\nstr1 = 'Welcome'\nprint (str1[:6] + ' John')",
+        "options": {
+            "a": "Welcome John",
+            "b": "WelcomJohn",
+            "c": "Welcom John",
+            "d": "None of the above"
         },
         "answer": "c"
     },
     {
-        "question": "Which of the following is not a keyword in Python language?",
+        "question": "Which of the following declarations is incorrect?",
         "options": {
-            "a": "val",
-            "b": "raise",
-            "c": "try",
-            "d": "with"
+            "a": "_x = 2",
+            "b": "__x = 3",
+            "c": "__xyz__ = 5",
+            "d": "None of these"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "what will this line print?\n first_list = [1 2 3 4 5]\n print(len(first_list))",
+        "options": {
+            "a": "1",
+            "b": "5",
+            "c": "4",
+            "d": "syntax error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
+        "options": {
+            "a": "Age is between 18 and 26",
+            "b": "Age is between 18 and 25",
+            "c": "Syntax error",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "options": {
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What is the output of print(2 + 2 * 3)?",
+        "options": {
+            "a": "6",
+            "b": "8",
+            "c": "12",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of print([1, 2, 3] + [4, 5, 6])?",
+        "options": {
+            "a": "[1, 2, 3, 4, 5, 6]",
+            "b": "[1, 4, 2, 5, 3, 6]",
+            "c": "[[1, 2, 3], [4, 5, 6]]",
+            "d": "None of the above"
         },
         "answer": "a"
     },
-      {
-        "question": "Which of the following statements is correct for variable names in Python language?",
+    {
+        "question": "What is the output of print(1 == \"1\")?",
         "options": {
-            "a": "All variable names must begin with an underscore.",
-            "b": "Unlimited length",
-            "c": "The variable name length is a maximum of 2.",
-            "d": "All of the above"
+            "a": "True",
+            "b": "False",
+            "c": "Error",
+            "d": "None of the above"
         },
         "answer": "b"
     },
-       {
-        "question": "Which of the following declarations is incorrect in python language?",
+    {
+        "question": "What is the output of print(\"Hello, World!\"[1:5])?",
         "options": {
-            "a": "xyzp = 5,000,000",
-            "b": "x y z p = 5000 6000 7000 8000",
-            "c": "x,y,z,p = 5000, 6000, 7000, 8000",
-            "d": "x_y_z_p = 5,000,000"
+            "a": "ello",
+            "b": "Hell",
+            "c": "World",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of print(not True)?",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error",
+            "d": "None of the above"
         },
         "answer": "b"
     },
-          {
-        "question": "Which of the following words cannot be a variable in python language?",
+    {
+        "question": "What is the syntax to print \"Hello, World!\" in Python?",
+        "options":{
+            "a": "print('Hello, World!')",
+            "b": "print('Hello World!')",
+            "c": "print(Hello, World!)",
+            "d": "print('Hello', 'World!')"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the result of 7 % 3 in Python?",
         "options": {
-            "a": "_val",
-            "b": "val",
-            "c": "try",
-            "d": "_try_"
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "answer": "b"
+    },
+    {
+        "question":"How do you concatenate two strings in Python?",
+        "options": {
+            "a": "Using the '+' operator",
+            "b": "Using the '-' operator",
+            "c": "Using the '*' operator",
+            "d": "Using the '/' operator"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you access the first element of a list in Python?",
+        "options": {
+            "a": "list[0]",
+            "b": "list[1]",
+            "c": "list[-1]",
+            "d": "list[-2]"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the syntax to write an if statement in Python?",
+        "options": {
+            "a": "if condition:",
+            "b": "if (condition)",
+            "c": "if {condition}",
+            "d": "if [condition]"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the syntax to write a for loop in Python?",
+        "options": {
+            "a": "for i in range(n):",
+            "b": "for i in n:",
+            "c": "for i in list:",
+            "d": "for i in dictionary:"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you exit a loop prematurely in Python?",
+        "options": {
+            "a": "break",
+            "b": "continue",
+            "c": "pass",
+            "d": "return"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you find the length of a string in Python?",
+        "options": {
+            "a": "len(string)",
+            "b": "string.length()",
+            "c": "string.len()",
+            "d": "length(string)"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"How do you add an element to the end of a list in Python?",
+        "options": {
+            "a": "list.append(element)",
+            "b": "list.add(element)",
+            "c": "list.insert(element)",
+            "d": "list.extend(element)"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What is the difference between '==' and '!=' operators in Python?",
+        "options": {
+            "a": "'==' checks for equality, '!=' checks for inequality",
+            "b": "'==' checks for inequality, '!=' checks for equality",
+            "c": "'==' checks for identity, '!=' checks for equality",
+            "d": "'==' checks for equality, '!=' checks for identity"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"Write a Python program to print the even numbers from 0 to 10.",
+        "options": {
+            "a": "for i in range(0, 11, 2):\n    print(i)",
+            "b": "for i in range(11):\n    if i % 2 == 0:\n        print(i)",
+            "c": "for i in range(11):\n    if i % 2 != 0:\n        print(i)",
+            "d": "for i in range(0, 10):\n    if i % 2 == 0:\n        print(i)"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"Write a Python program to find the maximum element in a list.",
+        "options": {
+            "a": "my_list = [1, 2, 3, 4, 5]\nprint(max(my_list))",
+            "b": "my_list = [1, 2, 3, 4, 5]\nmax_element = my_list[0]\nfor i in my_list:\n    if i > max_element:\n        max_element = i\nprint(max_element)",
+            "c": "my_list = [1, 2, 3, 4, 5]\nmy_list.sort()\nprint(my_list[-1])",
+            "d": "my_list = [1, 2, 3, 4, 5]\nmy_list.reverse()\nprint(my_list[0])"
+        },
+        "answer": "a"
+    },
+    {
+        "question":"What's the output of the following code?\n x = 5\n y = 3\n print(x % y)",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Study the following program:\n a = 1\n while True:\n  if a % 7 == 0:\n    break\n  print(a)\n  a += 1\nWhich of the following is correct output of this program?",
+        "options": {
+            "a": "1 2 3 4 5",
+            "b": "1 2 3 4 5 6",
+            "c": "1 2 3 4 5 6 7",
+            "d": "Invalid syntax"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Study the following program:\n i = 0\n while i < 5:\n  print(i)\n  i += 1\n  if i == 3:\n    break\nelse:\n  print(0)\nWhat will be the output of this statement?",
+        "options": {
+            "a": "1 2 3",
+            "b": "0 1 2 3",
+            "c": "0 1 2",
+            "d": "3 2 1"
         },
         "answer": "c"
     },
-              {
-        "question": "Which of the following operators is the correct option for power(ab)?",
+    {
+        "question": "Study the following program:\n i = 0\n while i < 3:\n  print(i)\n  i += 1\nelse:\n  print(0)\nWhat will be the output of this statement?",
         "options": {
-            "a": "a ^ b",
-            "b": "a**b",
-            "c": "a ^ ^ b",
-            "d": "a ^ * b"
+            "a": "0 1",
+            "b": "0 1 2",
+            "c": "0 1 2 0",
+            "d": "0 1 2 3"
         },
-        "answer": "b"
-                {
-        "question": "Which of the following precedence order is correct in Python?",
+        "answer": "d"
+    },
+    {
+        "question": "What will be the output of the following Python code?\nfor i in range(10):\n  if i == 5:\n    break\nelse:\n  print(i)\nprint(i)\nprint(\"Here\")",
         "options": {
-            "a": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
-            "b": "Multiplication, Division, Addition, Subtraction, Parentheses, Exponential",
-            "c": "Division, Multiplication, Addition, Subtraction, Parentheses, Exponential",
-            "d": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction"
+            "a": "0 1 2 3 4 Here",
+            "b": "0 1 2 3 4 5 Here",
+            "c": "0 1 2 3 4",
+            "d": "1 2 3 4 5"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n string = \"my name is x\"\n for i in string:\n print(i, end=\", \")",
+        "options": {
+            "a": "m, y, , n, a, m, e, , i, s, , x,",
+            "b": " m, y, , n, a, m, e, , i, s, , x",
+            "c": "my, name, is, x,",
+            "d": "error"
         },
         "answer": "a"
-                {
-        "question": "Which one of the following has the same precedence level?",
-        "options": {
-            "a": "Division, Power, Multiplication, Addition and Subtraction",
-            "b": "Division and Multiplication",
-            "c": "Subtraction and Division",
-            "d": "Power and Division"
-        },
-        "answer": "b"
-                {
-        "question": "Which one of the following has the highest precedence in the expression?",
-        "options": {
-            "a": "Division",
-            "b": "Subtraction",
-            "c": "Power",
-            "d": "Parentheses"
-        },
-        "answer": "d"
-              {
-        "question": "Which of the following functions is a built-in function in python language?",
-        "options": {
-            "a": "val()",
-            "b": "print()",
-            "c": "print()",
-            "d": "None of these"
-        },
-        "answer": "b"
-           {
-        "question": "In which year was the Python language developed?",
-        "options": {
-            "a": "1995",
-            "b": "1972",
-            "c": "1981",
-            "d": "1989"
-        },
-        "answer": "d"
-  ]
+    }
+]

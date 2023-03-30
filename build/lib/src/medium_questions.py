@@ -2,6 +2,86 @@
 
 PROBLEM_SETS = [
     {
+        "question": "What is the difference between an instance attribute and a class attribute in Python?",
+        "options": {
+            "a": "Instance attributes are defined within a method, while class attributes are defined outside of a method.",
+            "b": "Instance attributes are accessible only within the class, while class attributes are accessible outside of the class.",
+            "c": "Instance attributes are specific to an instance of a class, while class attributes are shared among all instances of a class.",
+            "d": "There is no difference between the two types of attributes."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the difference between an import statement and a from-import statement in Python?",
+        "options": {
+            "a": "An import statement imports an entire module, while a from-import statement imports a specific function or class from a module.",
+            "b": "An import statement is used for built-in Python modules, while a from-import statement is used for user-defined modules.",
+            "c": "An import statement is used for user-defined modules, while a from-import statement is used for built-in Python modules.",
+            "d": "There is no difference between the two types of statements."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n import math\n print(math.ceil(4.2))",
+        "options": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "Error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of the following code?\n try:\n x = 1 / 0\nexcept ZeroDivisionError:\n print('Division by zero.')",
+        "options": {
+            "a": "Division by zero.",
+            "b": "ZeroDivisionError.",
+            "c": "None",
+            "d": "Error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is a method in Python?",
+        "options": {
+            "a": "A function that is defined inside a class.",
+            "b": "A function that is defined outside a class.",
+            "c": "A variable that is defined inside a class.",
+            "d": "A variable that is defined outside a class."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\nclass Person:\n def init(self, name, age):\n self.name = name\n self.age = age\n\nperson = Person('John', 25)\nprint(person.name)",
+        "options": {
+            "a": "John",
+            "b": "25",
+            "c": "Person",
+            "d": "Error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\nclass A:\n def init(self):\n self.x = 1\n\nclass B(A):\n def init(self):\n super().init()\n self.y = 2\n\nb = B()\nprint(b.x + b.y)",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "Error"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the difference between a set and a list in Python?",
+        "options": {
+            "a": "A set is immutable and a list is mutable.",
+            "b": "A set is mutable and a list is immutable.",
+            "c": "Both sets and lists are immutable.",
+            "d": "Both sets and lists are mutable."
+        },
+        "answer": "b"
+    },
+    {
         "question": "What is the output of the following code?\n\n class Animal:\n\t def init(self, name):\n\t\t self.name = name\n\n class Dog(Animal):\n\t\t def bark(self):\n\t\t\t person1 = Person(\"John\", 25)\n\t\t\t print(person1.name)\n",
         "options": {
             "a": "age 25",
@@ -804,60 +884,105 @@ PROBLEM_SETS = [
             "d": "Nothing"
         },
         "answer": "d"
-         {
-        "question": " Which of the following is correctly evaluated for this function?\n pow(x,y,z)",
+    },
+    {
+        "question": "What does the join() method do in Python?",
         "options": {
-            "a": "(x**y) / z",
-            "b": "(x / y) * z",
-            "c": "(x**y) % z",
-            "d": "(x / y) / z"
-        },
-        "answer": "c"
-         {
-        "question": "Which one of the following syntaxes is the correct syntax to read from a simple text file stored in ''d:\scores.txt''?",
-        "options": {
-            "a": "Infile = open(''d:\\scores.txt'', ''r'')",
-            "b": "Infile = open(file=''d:\\\scores.txt'', ''r'')",
-            "c": "Infile = open(''d:\scores.txt'',''r'')",
-            "d": "Infile = open.file(''d:\\scores.txt'',''r'')"
-        },
-        "answer": "a"
-        {
-        "question": "Study the following code:\n x = ['XX', 'YY']\n for i in a:\n i.lower()\n print(a)\n What will be the output of this program?",
-        "options": {
-            "a": "['XX', 'YY']",
-            "b": "['xx', 'yy']",
-            "c": "[XX, yy]",
-            "d": "None of these"
-        },
-        "answer": "a"
-         {
-        "question":"Study the following function:\n import math\n abs(math.sqrt(36))\n What will be the output of this code?",
-        "options": {
-            "a": "Error",
-            "b": "-6",
-            "c": "6",
-            "d": "6.0"
+            "a": "Concatenates two strings together.",
+            "b": "Removes all whitespace from a string.",
+            "c": "Splits a string into a list of substrings.",
+            "d": "Concatenates a list of strings into a single string with a delimiter between each element."
         },
         "answer": "d"
-         {
-        "question":"Study the following function:\n any([5>8, 6>3, 3>1])\n What will be the output of this code?",
+    },
+    {
+        "question": "What is the output of the following code?\n\nfor i in range(2, 10, 2):\n    print(i)",
         "options": {
-            "a": "False",
-            "b": "True",
-            "c": "Invalid code",
-            "d": "None of these"
+            "a": "2 4 6 8",
+            "b": "2 4 8",
+            "c": "2 6",
+            "d": "4 8"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of these definitions correctly describes a module?",
+        "options": {
+            "a": "Any program that reuses code",
+            "b": "Defines the specification of how it is to be used",
+            "c": "Denoted by triple quotes for providing the specification of certain program elements",
+            "d": "Design and implementation of specific functionality to be incorporated into a program"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Which of the following methods can be used to open a file in python for writing?",
+        "options": {
+            "a": "open('filename.txt', 'r')",
+            "b": "open('filename.txt', 'w')",
+            "c": "open('filename.txt', 'a')",
+            "d": "open('filename.txt', 'x')"
         },
         "answer": "b"
-        {
-        "question":" Study the following statement:\n >>>"a"+"bc"\n What will be the output of this statement?",
+    },
+    {
+        "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
         "options": {
-            "a": "a+bc",
-            "b": "abc",
-            "c": "a bc",
-            "d": "a"
+            "a": "1 2 3 4",
+            "b": "1, 3, 4, 2, 0",
+            "c": "1--3--4--2",
+            "d": "1-3-4-2"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age', 0)",
+        "options": {
+            "a": "'age'",
+            "b": "89",
+            "c": "0",
+            "d": "Nothing"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is correct?",
+        "options": {
+            "a": "defunct(a, b)",
+            "b": "def add(a, b):",
+            "c": "define add(a + b):",
+            "d": "define add(a + b)"
         },
         "answer": "b"
-
-        }
+    },
+    {
+        "question": "To include the use of functions which are present in the random library, we must use the option:",
+        "options": {
+            "a": "random.h",
+            "b": "import.random",
+            "c": "import random",
+            "d": "random.random"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
+        "options": {
+            "a": "1 2 3 4",
+            "b": "1, 3, 4, 2, 0",
+            "c": "1--3--4--2",
+            "d": "1-3-4-2"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age')",
+        "options": {
+            "a": "'age'",
+            "b": "89",
+            "c": "12",
+            "d": "Nothing"
+        },
+        "answer": "d"
+    }
 ]

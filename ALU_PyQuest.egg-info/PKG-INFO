@@ -1,11 +1,12 @@
 Metadata-Version: 2.1
 Name: ALU-PyQuest
-Version: 0.1.7
+Version: 0.1.9
 Summary: Python Programming quiz
 Home-page: https://github.com/Elhameed/ALU-PYQUEST
 Author: Teniola Ajani
 Author-email: a.ajani@alustudent.com
 License: MIT
+Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
@@ -138,3 +139,5 @@ ALU-PYQUEST is licensed under the MIT License. See the [LICENSE](./LICENSE) file
 
 ----------
 - If you found ALU-PYQUEST useful, please consider giving this repo a star ⭐️!
+
+

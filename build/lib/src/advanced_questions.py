@@ -292,8 +292,8 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
-            "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, \"w\", encoding=\"utf-8\") as f:\n\t\treturn f.write(text)",
+    {
+        "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, \"w\", encoding=\"utf-8\") as f:\n\t\treturn f.write(text)",
         "options": {
             "a": "a function that writes a string to a text file (UTF8) and returns the number of characters written",
             "b": "a function that appends a string at the end of a text file (UTF8) and returns the number of characters added",
@@ -302,8 +302,8 @@ PROBLEM_SETS = [
         },
          "answer": "a"
     },
-       {
-            "question": "What does the function below do?\nimport json\n\ndef load_from_json_file(filename):\n\t\twith open(filename) as f:\n\t\treturn json.load(f)",
+    {
+        "question": "What does the function below do?\nimport json\n\ndef load_from_json_file(filename):\n\t\twith open(filename) as f:\n\t\treturn json.load(f)",
         "options": {
             "a": "writes an Object to a text file, using a JSON representation",
             "b": "returns an object (Python data structure) represented by a JSON string",
@@ -312,8 +312,8 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-      {
-            "question": "What function can be used to read input from the user in Python3?",
+    {
+        "question": "What function can be used to read input from the user in Python3?",
         "options": {
             "a": "raw_input()",
             "b": "input()",
@@ -322,8 +322,8 @@ PROBLEM_SETS = [
         },
          "answer": "b"
     },
-      {
-            "question": "Which Python module is used to create network sockets?",
+    {
+        "question": "Which Python module is used to create network sockets?",
         "options": {
             "a": "Urllib",
             "b": "network",
@@ -332,8 +332,8 @@ PROBLEM_SETS = [
         },
          "answer": "d"
     },
-       {
-            "question": "What is the first step in test-driven development?",
+    {
+        "question": "What is the first step in test-driven development?",
         "options": {
             "a": "Write the code",
             "b": "Debug the code",
@@ -342,8 +342,8 @@ PROBLEM_SETS = [
         },
          "answer": "d"
     },
-      {
-            "question": "In object-relational mapping (ORM), what is an entity?",
+    {
+        "question": "In object-relational mapping (ORM), what is an entity?",
         "options": {
             "a": "A database table",
             "b": "A database column",
@@ -352,8 +352,8 @@ PROBLEM_SETS = [
         },
          "answer": "c"
     },
-      {
-            "question": "What is a database connection pool?",
+    {
+        "question": "What is a database connection pool?",
         "options": {
             "a": "A distributed database",
             "b": "A cache of database connections that can be reused",
@@ -362,8 +362,8 @@ PROBLEM_SETS = [
         },
          "answer": "b"
     },
-       {
-            "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
+    {
+        "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
         "options": {
             "a": "read()",
             "b": "readline()",
@@ -372,8 +372,8 @@ PROBLEM_SETS = [
         },
          "answer": "a"
     },
-      {
-            "question": "Which of the following is not a benefit of using test-driven development (TDD)?",
+    {
+        "question": "Which of the following is not a benefit of using test-driven development (TDD)?",
         "options": {
             "a": "Faster development time",
             "b": "Reduced maintenance costs",
@@ -381,9 +381,9 @@ PROBLEM_SETS = [
             "d": "Improved code quality"
             },
             "answer": "c"
-        },
-        {
-            "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
+    },
+    {
+        "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
         "options": {
             "a": "[]",
             "b": "[3, 5, 3, 4]",
@@ -411,70 +411,48 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "b"
-         {
-        "question": "What will be the output of the following Python code?\n print("Hello {0[0]} and {0[1]}".format(('foo', 'bin')))",
+    },
+    {
+        "question": "Which Python module is used to create network sockets?",
         "options": {
-            "a": "Hello (‘foo’, ‘bin’) and (‘foo’, ‘bin’)",
-            "b": "Error",
-            "c": "Hello foo and bin",
-            "d": "None of the mentioned"
+            "a": "Urllib",
+            "b": "network",
+            "c": "request",
+            "d": "socket"
         },
-        "answer": "c"
-          {
-        "question": "Which of the following is the use of id() function in python?",
+         "answer": "d"
+    },
+    {
+        "question": "In object-relational mapping (ORM), what is an entity?",
         "options": {
-            "a": "Every object in Python doesn’t have a unique id",
-            "b": "In Python Id function returns the identity of the object",
-            "c": "None of the mentioned",
-            "d": "All of the mentioned"
+            "a": "A database table",
+            "b": "A database column",
+            "c": "A Python class",
+            "d": "An SQL query"
         },
-        "answer": "b"
-           {
-        "question": "What will be the output of the following Python code?\n x = [[0], [1]]\n print((' '.join(list(map(str, x))),))",
+         "answer": "c"
+    },
+    {
+        "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
         "options": {
-            "a": "01",
-            "b": "[0] [1]",
-            "c": "(’01’)",
-            "d": " (‘[0] [1]’,)"
+            "a": "read()",
+            "b": "readline()",
+            "c": "readlines()",
+            "d": "file()"
         },
-        "answer": "d"
-           {
-        "question": "What will be the output of the following Python code?\ndef foo():\ntry:\nreturn 1\nfinally:\nreturn 2\nk = foo()\nprint(k)",
+         "answer": "a"
+    },
+    {
+        "question": "Which of the following is the correct statement about the statement below?\n\n z = {\"x\":0, \"y\":1}",
         "options": {
-            "a": "error, there is more than one return statement in a single try-finally block",
-            "b": "3",
-            "c": "2",
-            "d": "1"
-        },
-        "answer": "c"
-          {
-        "question": "What will be the output of the following Python code?\n x = ['ab', 'cd']\n for i in x:\n  i.upper()\n print(x)", 
-        "options": {
-            "a": "[‘ab’, ‘cd’]",
-            "b": "[‘AB’, ‘CD’]",
-            "c": "[None, None]",
-            "d": "none of the mentioned"
-        },
-        "answer": "a"
-           {
-        "question": "What will be the output of the following Python code?\n x = ['ab', 'cd']\n for i in x:\n x.append(i.upper())\n print(x)",
-        "options": {
-            "a": "[‘AB’, ‘CD’]",
-            "b": "[‘ab’, ‘cd’, ‘AB’, ‘CD’]",
-            "c": " [‘ab’, ‘cd’]",
-            "d": "none of the mentioned"
+            "a": "x dictionary z is created",
+            "b": "x and y are the keys of dictionary z",
+            "c": "0 and 1 are the values of dictionary z",
+            "d": "All of the above"
         },
         "answer": "d"
-          {
-        "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
-        "options": {
-            "a": "1 2",
-            "b": "1 2 3",
-            "c": "error",
-            "d": " none of the mentioned"
-        },
-        "answer": "c"
-        {
+    },
+    {
         "question": "What will be the output of the following Python code?\n i = 5\n while True:\n if i%0O11 == 0:\n  break\n print(i)\n i += 1",
         "options": {
             "a": "5 6 7 8 9 10",
@@ -483,43 +461,18 @@ PROBLEM_SETS = [
             "d": "error"
         },
         "answer": "b"
-        {
-        "question": "What will be the output of the following Python code?\n for i in range(10):\n if i == 5:\n break\n  else:\n   print(i)\n else:\n print("Here")",
+    },
+    {
+        "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
         "options": {
-            "a": "0 1 2 3 4 Here",
-            "b": "0 1 2 3 4 5 Here",
-            "c": "0 1 2 3 4",
-            "d": "1 2 3 4 5"
-        },
-        "answer": "c"
-        {
-        "question": "What will be the output of the following Python code?\n string = "my name is x"\n for i in string.split():\n print (i, end=", ")",
-        "options": {
-            "a": "m, y, , n, a, m, e, , i, s, , x,",
-            "b": "m, y, , n, a, m, e, , i, s, , x",
-            "c": "my, name, is, x,",
-            "d": "error"
-        },
-        "answer": "c"
-                {
-        "question": "What will be the output of the following Python code snippet?\n [0, 1, 2, 3]\n i = -2\n for i not in a:\n print(i)\n  i += 1",
-        "options": {
-            "a": "-2 -1",
-            "b": "0",
+            "a": "1 2",
+            "b": "1 2 3",
             "c": "error",
-            "d": "none of the mentioned"
+            "d": " none of the mentioned"
         },
         "answer": "c"
-              {
-        "question": "What will be the output of the following Python code?\n y = 6\n z = lambda x: x * y\n print z(8)",
-        "options": {
-            "a": "48",
-            "b": "14",
-            "c": "64",
-            "d": "none of the mentioned"
-        },
-        "answer": "a"
-        {
+    },
+    {
          "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
         "options": {
             "a": "15.",
@@ -530,90 +483,213 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "What is the run time of the following  code?\n\nx = [12, 34]\nprint(len(list(map(int, x))))\n",
+        "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
         "options": {
-            
-            "a": "2",
-           "b": "1",
-           "c": "error",
-           "d": "none of the mentioned"
-           },
-           "answer": "a"
-           },
+            "a": "1 2",
+            "b": "1 2 3",
+            "c": "error",
+            "d": " none of the mentioned"
+        },
+        "answer": "c"
+    },
     {
-       "question": "What will be the output of the following Python code?\n\nx = [12.1, 34.0]\nprint(len(' '.join(list(map(str, x)))))\n",
-
-       "options": {
-           "a": "6",
-           "b": "8",
-           "c": "9",
-           "d": "none of the mentioned"
-       },
-       "answer": "c"
-   },
+        "question": "What is the run time of the below code?\n\nfor i in range(n):\n\tj=1\nwhile(j<n):\n\nprint(i,j)\nj*=2",
+        "options": {
+            "a": "O(n)",
+            "b": "O(n^2)",
+            "c": "O(log(n))",
+            "d": "O(n*log(n))"
+        },
+        "answer": "d"
+    },
     {
-       "question": "What will be the output of the following Python code?\n\nx = [12.1, 34.0]\nprint(' '.join(list(map(str, x))))\n",
-
-       "options": {
-           "a": "12 1 34 0",
-           "b": "12.1 34",
-           "c": "121 340",
-           "d": "12.1 34.0"
-       },
-       "answer": "d"
-   },
+         "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
+        "options": {
+            "a": "15.",
+            "b": "555",
+            "c": "125",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
     {
-       "question": "Which of the following statements create a dictionary?",
-       "options": {
-            "a": " d = {}",
-           "b": "d = {“john”:40, “peter”:45}",
-           "c": "d = {40:”john”, 45:”peter”}",
-           "d": "All of the above"
-       },
-       "answer": "d"
-   },
-   { 
-    "question": " Suppose d = {“john”:40, “peter”:45}, to delete the entry for “john” what command do we use?",
-
-       "options": {
-           "a": "d.delete(“john”:40)",
-           "b": "d.delete(“john”)",
-           "c": " del d[“john”]",
-           "d": "del d(“john”:40)"
-       },
-       "answer": "c"
-   },
-   {
-       "question": "What will be the output of the following Python code?\nd = {"john":40, "peter":45}\nprint(list(d.keys()))\n",
-
-       "options": {
-           "a": "[“john”, “peter”]",
-           "b": "[“john”:40, “peter”:45]",
-           "c": "(“john”, “peter”)",
-           "d": "(“john”:40, “peter”:45)"
-       },
-       "answer": "a"
-   },
+        "question": "What is the output of the following code snippet?\n\n def foo():\n print(\"Start\")\n yield 1\n print(\"Middle\")\n yield 2\n print(\"End\")\n\n for i in foo():\n print(i)",
+        "options": {
+            "a": "Start Middle End",
+            "b": "Start 1 Middle 2 End",
+            "c": "Start 1 2 Middle End",
+            "d": "Start Middle 1 2 End"
+        },
+        "answer": "b"
+    },
     {
-       "question": "What will be the output of the following Python code?\ndef f(x):\n\tyield x+1\ng=f(8)\nprint(next(g))\n",
-
-       "options": {
-           "a": "8",
-           "b": "9",
-           "c": "7",
-           "d": "error"
-       },
-       "answer": "b"
-   },
+        "question": "What is the output of the following code?",
+        "options": {
+            "a": "42",
+            "b": "None",
+            "c": "coroutine object at 0x...",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
     {
-       "question": "What will be the output of the following Python code?\ndef f(x):\n\tfor i in range(5):\n\tyield i\n\ng=f(8)\nprint(list(g))\n",
-
-       "options": {
-           "a": "[0, 1, 2, 3, 4]",
-           "b": " [1, 2, 3, 4, 5, 6, 7, 8]",
-           "c": "[1, 2, 3, 4, 5]",
-           "d": "[0, 1, 2, 3, 4, 5, 6, 7]"
-       },
-       "answer": "a"
-   },
+        "question": "Which of the following is a valid way to redirect standard output to a file in Python?",
+        "options": {
+            "a": "sys.stdout.write(\"Hello world\")",
+            "b": "sys.stderr.write(\"Hello world\")",
+            "c": "with open(\"output.txt\", \"w\") as f: f.write(\"Hello world\")",
+            "d": "print(\"Hello world\", file=open(\"output.txt\", \"w\"))"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What is the output of the following code?\nimport asyncio\n\nasync def coro():\n await asyncio.sleep(1)\n return 42\n\nasync def main():\n result = await coro()\n print(result)\n\nloop = asyncio.get_event_loop()\nloop.run_until_complete(main())",
+        "options": {
+            "a": "42",
+            "b": "\"None\"",
+            "c": "\"coroutine object at 0x...\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": {
+            "a": "\"Something went wrong\"",
+            "b": "\"CustomException: Something went wrong\"",
+            "c": "\"Exception: Something went wrong\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\nimport subprocess\n\ntry:\n output = subprocess.check_output([\"echo\", \"Hello world\"])\n print(output)\nexcept subprocess.CalledProcessError:\n print(\"Command failed\")\n",
+        "options": {
+            "a": "\"Hello world\n\"",
+            "b": "\"Hello world\"",
+            "c": "\"Command failed\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n\nimport asyncio\n\nasync def coro():\n print('coro started')\n await asyncio.sleep(1)\n print('coro ended')\n\nloop = asyncio.get_event_loop()\nloop.run_until_complete(coro())",
+        "options": {
+            "a": "'coro started', followed by 'coro ended' after 1 second.",
+            "b": "'coro started', followed by 'coro ended' immediately.",
+            "c": "'coro ended', followed by 'coro started' after 1 second.",
+            "d": "'coro ended', followed by 'coro started' immediately."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is a valid way to write test cases for a REST API using Python's unittest module?",
+        "options": {
+            "a": "Use the requests module to send HTTP requests and check the responses.",
+            "b": "Use the unittest.mock module to mock the API responses and test the behavior of the code.",
+            "c": "Use the unittest.TestCase.assert*() methods to check the results of API calls.",
+            "d": "Use the unittest.skip() decorator to skip tests that require a running server."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is a correct statement about Python's garbage collection system?",
+        "options": {
+            "a": "Python uses reference counting to keep track of object lifetimes.",
+            "b": "Python's garbage collector runs in a separate thread to avoid blocking the main thread.",
+            "c": "Python's garbage collector uses a generational algorithm to optimize memory usage.",
+            "d": "Python's garbage collector only runs when the system is low on memory."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is a valid way to serialize and deserialize complex data structures using Python's pickle module?",
+        "options": {
+            "a": "pickle.dumps(data, protocol=pickle.HIGHEST_PROTOCOL)",
+            "b": "pickle.dump(data, file)",
+            "c": "pickle.loads(data)",
+            "d": "pickle.load(file)"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following is a difference between multiprocessing and threading in Python?",
+        "options": {
+            "a": "multiprocessing can run multiple processes on different CPUs, while threading can only run on a single CPU.",
+            "b": "multiprocessing is more memory-efficient than threading.",
+            "c": "multiprocessing uses more memory than threading.",
+            "d": "threading is more CPU-efficient than multiprocessing."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is a valid way to execute a shell command asynchronously in Python?",
+        "options": {
+            "a": "os.system(\"ls -l\")",
+            "b": "subprocess.call(\"ls -l\", shell=True)",
+            "c": "subprocess.Popen(\"ls -l\", shell=True)",
+            "d": "os.execvp(\"ls\", [\"-l\"])"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is a valid way to create a custom exception in Python?",
+        "options": {
+            "a": "class CustomException(BaseException): pass",
+            "b": "class CustomException(Exception): pass",
+            "c": "class CustomException(RuntimeError): pass",
+            "d": "class CustomException(ValueError): pass"
+        },
+        "answer": "b"
+    },
+    {
+        "question":"Which of the following is not a complex number?",
+        "options": {
+            "a": "k = 2 + 3j",
+            "b": "k = complex(2, 3)",
+            "c": "k = 2 + 3l",
+            "d": "k = 2 + 3J"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Study the following program:\n z = \"xyz\"\n j = \"j\"\n while j in z:\n  pass\nWhat will be the output of this statement?",
+        "options": {
+            "a": "xyz",
+            "b": "No output",
+            "c": "x y z",
+            "d": "j j j j j j j.."
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What error will occur when you execute the following code?\nMANGO = APPLE",
+        "options": {
+            "a": "NameError",
+            "b": "SyntaxError",
+            "c": "TypeError",
+            "d": "ValueError"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n a = [0, 1, 2, 3]\n i = -2\n for i not in a:\n print(i)\n  i += 1",
+        "options": {
+            "a": "-2 -1",
+            "b": "0",
+            "c": " error",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n x = (i for i in range(3))\n for i in x:\n print(i)",
+        "options": {
+            "a": " 0 1 2",
+            "b": "error",
+            "c": "0 1 2 0 1 2",
+            "d": "none of the mentioned"
+        },
+        "answer": "a"
+    }
 ]
