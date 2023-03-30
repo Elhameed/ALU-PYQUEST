@@ -413,4 +413,102 @@ PROBLEM_SETS = [
         "answer": "b"
     },
 
+ {
+            "question": "Which Python module is used to create network sockets?",
+        "options": {
+            "a": "Urllib",
+            "b": "network",
+            "c": "request",
+            "d": "socket"
+        },
+         "answer": "d"
+    },
+    {
+            "question": "In object-relational mapping (ORM), what is an entity?",
+        "options": {
+            "a": "A database table",
+            "b": "A database column",
+            "c": "A Python class",
+            "d": "An SQL query"
+        },
+         "answer": "c"
+    },
+    {
+            "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
+        "options": {
+            "a": "read()",
+            "b": "readline()",
+            "c": "readlines()",
+            "d": "file()"
+        },
+         "answer": "a"
+    },
+    {
+            "question": "Which of the following is the correct statement about the statement below?\n\n z = {"x":0, "y":1}",
+        "options": {
+            "a": "x dictionary z is created",
+            "b": "x and y are the keys of dictionary z",
+            "c": "0 and 1 are the values of dictionary z",
+            "d": "All of the above"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n i = 5\n while True:\n if i%0O11 == 0:\n  break\n print(i)\n i += 1",
+        "options": {
+            "a": "5 6 7 8 9 10",
+            "b": "5 6 7 8",
+            "c": "5 6",
+            "d": "error"
+        },
+        "answer": "b"
+  {
+        "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
+        "options": {
+            "a": "1 2",
+            "b": "1 2 3",
+            "c": "error",
+            "d": " none of the mentioned"
+        },
+        "answer": "c"
+         {
+         "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
+        "options": {
+            "a": "15.",
+            "b": "555",
+            "c": "125",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+     {
+        "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
+        "options": {
+            "a": "1 2",
+            "b": "1 2 3",
+            "c": "error",
+            "d": " none of the mentioned"
+        },
+        "answer": "c"
+         {
+        "question": "What is the run time of the below code?\n\nfor i in range(n):\n\tj=1\nwhile(j<n):\n\nprint(i,j)\nj*=2",
+        "options": {
+            "a": "O(n)",
+            "b": "O(n^2)",
+            "c": "O(log(n))",
+            "d": "O(n*log(n))"
+        },
+        "answer": "d"
+    },
+     {
+         "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
+        "options": {
+            "a": "15.",
+            "b": "555",
+            "c": "125",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+
 ]
