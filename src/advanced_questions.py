@@ -641,5 +641,55 @@ PROBLEM_SETS = [
             "d": "class CustomException(ValueError): pass"
         },
         "answer": "b"
+    },
+    {
+        "question":"Which of the following is not a complex number?",
+        "options": {
+            "a": "k = 2 + 3j",
+            "b": "k = complex(2, 3)",
+            "c": "k = 2 + 3l",
+            "d": "k = 2 + 3J"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Study the following program:\n z = \"xyz\"\n j = \"j\"\n while j in z:\n  pass\nWhat will be the output of this statement?",
+        "options": {
+            "a": "xyz",
+            "b": "No output",
+            "c": "x y z",
+            "d": "j j j j j j j.."
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What error will occur when you execute the following code?\nMANGO = APPLE",
+        "options": {
+            "a": "NameError",
+            "b": "SyntaxError",
+            "c": "TypeError",
+            "d": "ValueError"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n a = [0, 1, 2, 3]\n i = -2\n for i not in a:\n print(i)\n  i += 1",
+        "options": {
+            "a": "-2 -1",
+            "b": "0",
+            "c": " error",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n x = (i for i in range(3))\n for i in x:\n print(i)",
+        "options": {
+            "a": " 0 1 2",
+            "b": "error",
+            "c": "0 1 2 0 1 2",
+            "d": "none of the mentioned"
+        },
+        "answer": "a"
     }
 ]
