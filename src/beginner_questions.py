@@ -280,7 +280,7 @@ PROBLEM_SETS = [
             "c": "8",
             "d": "syntax error"
         },
-        "answer": "a"    
+        "answer": "a"
     },
     {
         "question": "Why are local variable names beginning with an underscore discouraged?",
@@ -793,7 +793,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "What will be the output of the following Python code?\n string = "my name is x"\n for i in string:\n print (i, end=", ")",
+        "question": "What will be the output of the following Python code?\n string = \"my name is x\"\n for i in string:\n print(i, end=\", \")",
         "options": {
             "a": "m, y, , n, a, m, e, , i, s, , x,",
             "b": " m, y, , n, a, m, e, , i, s, , x",
