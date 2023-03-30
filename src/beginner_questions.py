@@ -751,5 +751,55 @@ PROBLEM_SETS = [
             "d": "4"
         },
         "answer": "b"
+    },
+    {
+        "question": "Study the following program:\n a = 1\n while True:\n  if a % 7 == 0:\n    break\n  print(a)\n  a += 1\nWhich of the following is correct output of this program?",
+        "options": {
+            "a": "1 2 3 4 5",
+            "b": "1 2 3 4 5 6",
+            "c": "1 2 3 4 5 6 7",
+            "d": "Invalid syntax"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Study the following program:\n i = 0\n while i < 5:\n  print(i)\n  i += 1\n  if i == 3:\n    break\nelse:\n  print(0)\nWhat will be the output of this statement?",
+        "options": {
+            "a": "1 2 3",
+            "b": "0 1 2 3",
+            "c": "0 1 2",
+            "d": "3 2 1"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Study the following program:\n i = 0\n while i < 3:\n  print(i)\n  i += 1\nelse:\n  print(0)\nWhat will be the output of this statement?",
+        "options": {
+            "a": "0 1",
+            "b": "0 1 2",
+            "c": "0 1 2 0",
+            "d": "0 1 2 3"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What will be the output of the following Python code?\nfor i in range(10):\n  if i == 5:\n    break\nelse:\n  print(i)\nprint(i)\nprint(\"Here\")",
+        "options": {
+            "a": "0 1 2 3 4 Here",
+            "b": "0 1 2 3 4 5 Here",
+            "c": "0 1 2 3 4",
+            "d": "1 2 3 4 5"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n string = "my name is x"\n for i in string:\n print (i, end=", ")",
+        "options": {
+            "a": "m, y, , n, a, m, e, , i, s, , x,",
+            "b": " m, y, , n, a, m, e, , i, s, , x",
+            "c": "my, name, is, x,",
+            "d": "error"
+        },
+        "answer": "a"
     }
 ]
