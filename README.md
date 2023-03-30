@@ -85,7 +85,12 @@ user@User:~/$ PyQuest
 9. You will also be provided with the option to view your high scores.
 
 <h2 id="screenshots">Screenshots 📷</h2> 
-Coming soon...
+
+<div float="left">
+  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot1.PNG" />
+  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot2.PNG" />
+  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot3.PNG" />
+</div>
 
 <h2 id="demo-video">Demo Video 🎥</h2> 
 
