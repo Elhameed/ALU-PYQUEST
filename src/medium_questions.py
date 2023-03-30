@@ -805,4 +805,104 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     }
+{
+        "question": "What does the join() method do in Python?",
+        "options": {
+            "a": "Concatenates two strings together.",
+            "b": "Removes all whitespace from a string.",
+            "c": "Splits a string into a list of substrings.",
+            "d": "Concatenates a list of strings into a single string with a delimiter between each element."
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What is the output of the following code?\n\nfor i in range(2, 10, 2):\n    print(i)",
+        "options": {
+            "a": "2 4 6 8",
+            "b": "2 4 8",
+            "c": "2 6",
+            "d": "4 8"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of these definitions correctly describes a module?",
+        "options": {
+            "a": "Any program that reuses code",
+            "b": "Defines the specification of how it is to be used",
+            "c": "Denoted by triple quotes for providing the specification of certain program elements",
+            "d": "Design and implementation of specific functionality to be incorporated into a program"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Which of the following methods can be used to open a file in python for writing?",
+        "options": {
+            "a": "open('filename.txt', 'r')",
+            "b": "open('filename.txt', 'w')",
+            "c": "open('filename.txt', 'a')",
+            "d": "open('filename.txt', 'x')"
+        },
+        "answer": "b"
+    },
+     {
+        "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
+        "options": {
+            "a": "1 2 3 4",
+            "b": "1, 3, 4, 2, 0",
+            "c": "1--3--4--2",
+            "d": "1-3-4-2"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age', 0)",
+        "options": {
+            "a": "'age'",
+            "b": "89",
+            "c": "0",
+            "d": "Nothing"
+        },
+        "answer": "c"
+    },
+     {
+        "question": "Which of the following is correct?",
+        "options": {
+            "a": "defunct(a, b)",
+            "b": "def add(a, b):",
+            "c": "define add(a + b):",
+            "d": "define add(a + b)"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "To include the use of functions which are present in the random library, we must use the option:",
+        "options": {
+            "a": "random.h",
+            "b": "import.random",
+            "c": "import random",
+            "d": "random.random"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
+        "options": {
+            "a": "1 2 3 4",
+            "b": "1, 3, 4, 2, 0",
+            "c": "1--3--4--2",
+            "d": "1-3-4-2"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What do these lines print?\na = { 'id': 89, 'name': \"John\" }\na.get('age')",
+        "options": {
+            "a": "'age'",
+            "b": "89",
+            "c": "12",
+            "d": "Nothing"
+        },
+        "answer": "d"
+    }
 ]
