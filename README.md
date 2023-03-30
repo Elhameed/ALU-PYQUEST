@@ -86,14 +86,10 @@ user@User:~/$ PyQuest
 
 <h2 id="screenshots">Screenshots 📷</h2> 
 
-<div style="display: flex;">
-  <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot1.PNG" style="display: inline-block;" />
-    <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot2.PNG" style="display: inline-block;" />
-  </div>
-  <div>
-    <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot3.PNG" style="display: block; width: 100%;" />
-  </div>
+<div>
+  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot1.PNG" />
+  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot2.PNG" />
+  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot3.PNG" />
 </div>
 
 <h2 id="demo-video">Demo Video 🎥</h2> 
