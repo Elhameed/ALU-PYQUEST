@@ -2,6 +2,86 @@
 
 PROBLEM_SETS = [
     {
+        "question": "What is the difference between an instance attribute and a class attribute in Python?",
+        "options": {
+            "a": "Instance attributes are defined within a method, while class attributes are defined outside of a method.",
+            "b": "Instance attributes are accessible only within the class, while class attributes are accessible outside of the class.",
+            "c": "Instance attributes are specific to an instance of a class, while class attributes are shared among all instances of a class.",
+            "d": "There is no difference between the two types of attributes."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the difference between an import statement and a from-import statement in Python?",
+        "options": {
+            "a": "An import statement imports an entire module, while a from-import statement imports a specific function or class from a module.",
+            "b": "An import statement is used for built-in Python modules, while a from-import statement is used for user-defined modules.",
+            "c": "An import statement is used for user-defined modules, while a from-import statement is used for built-in Python modules.",
+            "d": "There is no difference between the two types of statements."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n import math\n print(math.ceil(4.2))",
+        "options": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "Error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of the following code?\n try:\n x = 1 / 0\nexcept ZeroDivisionError:\n print('Division by zero.')",
+        "options": {
+            "a": "Division by zero.",
+            "b": "ZeroDivisionError.",
+            "c": "None",
+            "d": "Error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is a method in Python?",
+        "options": {
+            "a": "A function that is defined inside a class.",
+            "b": "A function that is defined outside a class.",
+            "c": "A variable that is defined inside a class.",
+            "d": "A variable that is defined outside a class."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\nclass Person:\n def init(self, name, age):\n self.name = name\n self.age = age\n\nperson = Person('John', 25)\nprint(person.name)",
+        "options": {
+            "a": "John",
+            "b": "25",
+            "c": "Person",
+            "d": "Error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\nclass A:\n def init(self):\n self.x = 1\n\nclass B(A):\n def init(self):\n super().init()\n self.y = 2\n\nb = B()\nprint(b.x + b.y)",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "Error"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "What is the difference between a set and a list in Python?",
+        "options": {
+            "a": "A set is immutable and a list is mutable.",
+            "b": "A set is mutable and a list is immutable.",
+            "c": "Both sets and lists are immutable.",
+            "d": "Both sets and lists are mutable."
+        },
+        "answer": "b"
+    },
+    {
         "question": "What is the output of the following code?\n\n class Animal:\n\t def init(self, name):\n\t\t self.name = name\n\n class Dog(Animal):\n\t\t def bark(self):\n\t\t\t person1 = Person(\"John\", 25)\n\t\t\t print(person1.name)\n",
         "options": {
             "a": "age 25",
