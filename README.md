@@ -1,6 +1,6 @@
 <h1 align="center">ALU-PYQUEST🐍💻</h1>
 
-<img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/pythonquiz.jpg" />
+<img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/pythonquiz.jpg" />
 
 🐍 ALU PYQUEST 🎮 is a game designed to 🧐 test your knowledge of Python programming language. It consists of a series of 🤔 questions related to the Python curriculum, presented one at a time ⏰, starting from beginner's level to advanced level. You will have a limited time ⏳ to answer each question, and for each ✅ correct answer, you will earn 🔟 points, while for each ❌ incorrect answer or if you run out of time ⌛, 5 points will be deducted from your score.
 
