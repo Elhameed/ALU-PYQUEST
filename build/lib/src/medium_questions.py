@@ -804,5 +804,60 @@ PROBLEM_SETS = [
             "d": "Nothing"
         },
         "answer": "d"
-    }
+         {
+        "question": " Which of the following is correctly evaluated for this function?\n pow(x,y,z)",
+        "options": {
+            "a": "(x**y) / z",
+            "b": "(x / y) * z",
+            "c": "(x**y) % z",
+            "d": "(x / y) / z"
+        },
+        "answer": "c"
+         {
+        "question": "Which one of the following syntaxes is the correct syntax to read from a simple text file stored in ''d:\scores.txt''?",
+        "options": {
+            "a": "Infile = open(''d:\\scores.txt'', ''r'')",
+            "b": "Infile = open(file=''d:\\\scores.txt'', ''r'')",
+            "c": "Infile = open(''d:\scores.txt'',''r'')",
+            "d": "Infile = open.file(''d:\\scores.txt'',''r'')"
+        },
+        "answer": "a"
+        {
+        "question": "Study the following code:\n x = ['XX', 'YY']\n for i in a:\n i.lower()\n print(a)\n What will be the output of this program?",
+        "options": {
+            "a": "['XX', 'YY']",
+            "b": "['xx', 'yy']",
+            "c": "[XX, yy]",
+            "d": "None of these"
+        },
+        "answer": "a"
+         {
+        "question":"Study the following function:\n import math\n abs(math.sqrt(36))\n What will be the output of this code?",
+        "options": {
+            "a": "Error",
+            "b": "-6",
+            "c": "6",
+            "d": "6.0"
+        },
+        "answer": "d"
+         {
+        "question":"Study the following function:\n any([5>8, 6>3, 3>1])\n What will be the output of this code?",
+        "options": {
+            "a": "False",
+            "b": "True",
+            "c": "Invalid code",
+            "d": "None of these"
+        },
+        "answer": "b"
+        {
+        "question":" Study the following statement:\n >>>"a"+"bc"\n What will be the output of this statement?",
+        "options": {
+            "a": "a+bc",
+            "b": "abc",
+            "c": "a bc",
+            "d": "a"
+        },
+        "answer": "b"
+
+        }
 ]

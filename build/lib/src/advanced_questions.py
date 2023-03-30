@@ -411,6 +411,123 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "b"
+         {
+        "question": "What will be the output of the following Python code?\n print("Hello {0[0]} and {0[1]}".format(('foo', 'bin')))",
+        "options": {
+            "a": "Hello (‘foo’, ‘bin’) and (‘foo’, ‘bin’)",
+            "b": "Error",
+            "c": "Hello foo and bin",
+            "d": "None of the mentioned"
+        },
+        "answer": "c"
+          {
+        "question": "Which of the following is the use of id() function in python?",
+        "options": {
+            "a": "Every object in Python doesn’t have a unique id",
+            "b": "In Python Id function returns the identity of the object",
+            "c": "None of the mentioned",
+            "d": "All of the mentioned"
+        },
+        "answer": "b"
+           {
+        "question": "What will be the output of the following Python code?\n x = [[0], [1]]\n print((' '.join(list(map(str, x))),))",
+        "options": {
+            "a": "01",
+            "b": "[0] [1]",
+            "c": "(’01’)",
+            "d": " (‘[0] [1]’,)"
+        },
+        "answer": "d"
+           {
+        "question": "What will be the output of the following Python code?\ndef foo():\ntry:\nreturn 1\nfinally:\nreturn 2\nk = foo()\nprint(k)",
+        "options": {
+            "a": "error, there is more than one return statement in a single try-finally block",
+            "b": "3",
+            "c": "2",
+            "d": "1"
+        },
+        "answer": "c"
+          {
+        "question": "What will be the output of the following Python code?\n x = ['ab', 'cd']\n for i in x:\n  i.upper()\n print(x)", 
+        "options": {
+            "a": "[‘ab’, ‘cd’]",
+            "b": "[‘AB’, ‘CD’]",
+            "c": "[None, None]",
+            "d": "none of the mentioned"
+        },
+        "answer": "a"
+           {
+        "question": "What will be the output of the following Python code?\n x = ['ab', 'cd']\n for i in x:\n x.append(i.upper())\n print(x)",
+        "options": {
+            "a": "[‘AB’, ‘CD’]",
+            "b": "[‘ab’, ‘cd’, ‘AB’, ‘CD’]",
+            "c": " [‘ab’, ‘cd’]",
+            "d": "none of the mentioned"
+        },
+        "answer": "d"
+          {
+        "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
+        "options": {
+            "a": "1 2",
+            "b": "1 2 3",
+            "c": "error",
+            "d": " none of the mentioned"
+        },
+        "answer": "c"
+        {
+        "question": "What will be the output of the following Python code?\n i = 5\n while True:\n if i%0O11 == 0:\n  break\n print(i)\n i += 1",
+        "options": {
+            "a": "5 6 7 8 9 10",
+            "b": "5 6 7 8",
+            "c": "5 6",
+            "d": "error"
+        },
+        "answer": "b"
+        {
+        "question": "What will be the output of the following Python code?\n for i in range(10):\n if i == 5:\n break\n  else:\n   print(i)\n else:\n print("Here")",
+        "options": {
+            "a": "0 1 2 3 4 Here",
+            "b": "0 1 2 3 4 5 Here",
+            "c": "0 1 2 3 4",
+            "d": "1 2 3 4 5"
+        },
+        "answer": "c"
+        {
+        "question": "What will be the output of the following Python code?\n string = "my name is x"\n for i in string.split():\n print (i, end=", ")",
+        "options": {
+            "a": "m, y, , n, a, m, e, , i, s, , x,",
+            "b": "m, y, , n, a, m, e, , i, s, , x",
+            "c": "my, name, is, x,",
+            "d": "error"
+        },
+        "answer": "c"
+                {
+        "question": "What will be the output of the following Python code snippet?\n [0, 1, 2, 3]\n i = -2\n for i not in a:\n print(i)\n  i += 1",
+        "options": {
+            "a": "-2 -1",
+            "b": "0",
+            "c": "error",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+              {
+        "question": "What will be the output of the following Python code?\n y = 6\n z = lambda x: x * y\n print z(8)",
+        "options": {
+            "a": "48",
+            "b": "14",
+            "c": "64",
+            "d": "none of the mentioned"
+        },
+        "answer": "a"
+        {
+         "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
+        "options": {
+            "a": "15.",
+            "b": "555",
+            "c": "125",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
     },
 
 ]

@@ -471,5 +471,14 @@ PROBLEM_SETS = [
             "d": "sys.version"
         },
         "answer": "d"
+          {
+        "question": "What is the maximum possible length of an identifier?",
+        "options": {
+            "a": "16",
+            "b": "34",
+            "c": "64",
+            "d": "none of the mentioned"
+        },
+        "answer": "d"
     },
 ]
