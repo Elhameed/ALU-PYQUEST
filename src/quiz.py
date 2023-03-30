@@ -2,9 +2,9 @@
 
 import time
 import random
-import beginner_questions
-import medium_questions
-import advanced_questions
+import src.beginner_questions
+import src.medium_questions
+import src.advanced_questions
 
 # Define the game rules and guidelines as a string variable:
 RULES = """
@@ -21,10 +21,29 @@ In total, you will be asked 12 questions, 4 questions for each level of difficul
 At the end of the game, your total score will be displayed. Good luck!
 """
 
+#function to load and save high scores to a file
+HIGH_SCORES_FILE = 'high_scores.txt'
+
+def load_high_scores():
+    high_scores = []
+    try:
+        with open(HIGH_SCORES_FILE, 'r') as f:
+            for line in f:
+                name, score = line.strip().split(',')
+                high_scores.append((name, int(score)))
+    except FileNotFoundError:
+        pass  # If the file doesn't exist, return an empty list
+    return high_scores
+
+def save_high_scores(high_scores):
+    with open(HIGH_SCORES_FILE, 'w') as f:
+        for name, score in high_scores:
+            f.write(f"{name},{score}\n")
+
 #function to generate random questions from beginner to advanced
-BEGINNER_PROBLEMS = beginner_questions.PROBLEM_SETS
-MEDIUM_PROBLEMS = medium_questions.PROBLEM_SETS
-ADVANCED_PROBLEMS = advanced_questions.PROBLEM_SETS
+BEGINNER_PROBLEMS = src.beginner_questions.PROBLEM_SETS
+MEDIUM_PROBLEMS = src.medium_questions.PROBLEM_SETS
+ADVANCED_PROBLEMS = src.advanced_questions.PROBLEM_SETS
 
 def generate_problem_sets(difficulty_level):
     if difficulty_level == 'beginner':
@@ -36,9 +55,19 @@ def generate_problem_sets(difficulty_level):
 
 # Define a function to play game
 def playgame():
+    #print initial message
     print("Loading the game...")
     time.sleep(2)
     print(RULES)
+
+    #load and display high scores
+    high_scores = load_high_scores()
+    if high_scores:
+        print("========== High Scores ==========")
+        for i, (name, score) in enumerate(high_scores[:5]):
+            print(f"{i+1}. {name}: {score}")
+    
+    #start the game
     ready = input("Are you ready to start the game? Enter(yes/no): ")    
     if ready.lower() == "yes":
         print("\nGreat! Let's start the game. \n")
@@ -76,6 +105,22 @@ def playgame():
                 counter += 1
                 time.sleep(1)
         print(f"\nYour final score is: {score}")
+
+        #Stores user score
+        name = input("Enter your name: ")
+        high_scores.append((name, score))
+        high_scores.sort(key=lambda x: x[1], reverse=True)
+        if len(high_scores) > 5:
+            high_scores = high_scores[:5]
+        save_high_scores(high_scores)
+
+        #asks user to view high score
+        view_high_scores = input("\nDo you want to view high scores? Enter(yes/no): ")
+        if view_high_scores.lower() == "yes":
+            print("\n========== High Scores ==========")
+            for i, (name, score) in enumerate(high_scores[:5]):
+                print(f"{i+1}. {name}: {score}")
+
         play_again = input("\nDo you want to play again? Enter(yes/no): ")
         while play_again.lower() == 'yes':
             print("Loading the game...")
@@ -112,6 +157,22 @@ def playgame():
                     counter += 1
                     time.sleep(1)
             print(f"\nYour final score is: {score}")
+
+            #store users score
+            name = input("Enter your name: ")
+            high_scores.append((name, score))
+            high_scores.sort(key=lambda x: x[1], reverse=True)
+            if len(high_scores) > 5:
+                high_scores = high_scores[:5]
+            save_high_scores(high_scores)
+
+            #asks user to view high core
+            view_high_scores = input("\nDo you want to view high scores? Enter(yes/no): ")
+            if view_high_scores.lower() == "yes":
+                print("\n========== High Scores ==========")
+                for i, (name, score) in enumerate(high_scores[:5]):
+                    print(f"{i+1}. {name}: {score}")
+
             play_again = input("\nDo you want to play again? Enter(yes/no): ")
         else:
             print("\nThank you for playing! Goodbye.")
