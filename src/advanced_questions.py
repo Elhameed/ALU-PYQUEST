@@ -292,8 +292,8 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
-            "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, \"w\", encoding=\"utf-8\") as f:\n\t\treturn f.write(text)",
+    {
+        "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, \"w\", encoding=\"utf-8\") as f:\n\t\treturn f.write(text)",
         "options": {
             "a": "a function that writes a string to a text file (UTF8) and returns the number of characters written",
             "b": "a function that appends a string at the end of a text file (UTF8) and returns the number of characters added",
@@ -302,8 +302,8 @@ PROBLEM_SETS = [
         },
          "answer": "a"
     },
-       {
-            "question": "What does the function below do?\nimport json\n\ndef load_from_json_file(filename):\n\t\twith open(filename) as f:\n\t\treturn json.load(f)",
+    {
+        "question": "What does the function below do?\nimport json\n\ndef load_from_json_file(filename):\n\t\twith open(filename) as f:\n\t\treturn json.load(f)",
         "options": {
             "a": "writes an Object to a text file, using a JSON representation",
             "b": "returns an object (Python data structure) represented by a JSON string",
@@ -312,8 +312,8 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-      {
-            "question": "What function can be used to read input from the user in Python3?",
+    {
+        "question": "What function can be used to read input from the user in Python3?",
         "options": {
             "a": "raw_input()",
             "b": "input()",
@@ -322,8 +322,8 @@ PROBLEM_SETS = [
         },
          "answer": "b"
     },
-      {
-            "question": "Which Python module is used to create network sockets?",
+    {
+        "question": "Which Python module is used to create network sockets?",
         "options": {
             "a": "Urllib",
             "b": "network",
@@ -332,8 +332,8 @@ PROBLEM_SETS = [
         },
          "answer": "d"
     },
-       {
-            "question": "What is the first step in test-driven development?",
+    {
+        "question": "What is the first step in test-driven development?",
         "options": {
             "a": "Write the code",
             "b": "Debug the code",
@@ -342,8 +342,8 @@ PROBLEM_SETS = [
         },
          "answer": "d"
     },
-      {
-            "question": "In object-relational mapping (ORM), what is an entity?",
+    {
+        "question": "In object-relational mapping (ORM), what is an entity?",
         "options": {
             "a": "A database table",
             "b": "A database column",
@@ -352,8 +352,8 @@ PROBLEM_SETS = [
         },
          "answer": "c"
     },
-      {
-            "question": "What is a database connection pool?",
+    {
+        "question": "What is a database connection pool?",
         "options": {
             "a": "A distributed database",
             "b": "A cache of database connections that can be reused",
@@ -362,8 +362,8 @@ PROBLEM_SETS = [
         },
          "answer": "b"
     },
-       {
-            "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
+    {
+        "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
         "options": {
             "a": "read()",
             "b": "readline()",
@@ -372,8 +372,8 @@ PROBLEM_SETS = [
         },
          "answer": "a"
     },
-      {
-            "question": "Which of the following is not a benefit of using test-driven development (TDD)?",
+    {
+        "question": "Which of the following is not a benefit of using test-driven development (TDD)?",
         "options": {
             "a": "Faster development time",
             "b": "Reduced maintenance costs",
@@ -381,9 +381,9 @@ PROBLEM_SETS = [
             "d": "Improved code quality"
             },
             "answer": "c"
-        },
-        {
-            "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
+    },
+    {
+        "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
         "options": {
             "a": "[]",
             "b": "[3, 5, 3, 4]",
@@ -412,9 +412,8 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-
- {
-            "question": "Which Python module is used to create network sockets?",
+    {
+        "question": "Which Python module is used to create network sockets?",
         "options": {
             "a": "Urllib",
             "b": "network",
@@ -424,7 +423,7 @@ PROBLEM_SETS = [
          "answer": "d"
     },
     {
-            "question": "In object-relational mapping (ORM), what is an entity?",
+        "question": "In object-relational mapping (ORM), what is an entity?",
         "options": {
             "a": "A database table",
             "b": "A database column",
@@ -434,7 +433,7 @@ PROBLEM_SETS = [
          "answer": "c"
     },
     {
-            "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
+        "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
         "options": {
             "a": "read()",
             "b": "readline()",
@@ -444,7 +443,7 @@ PROBLEM_SETS = [
          "answer": "a"
     },
     {
-            "question": "Which of the following is the correct statement about the statement below?\n\n z = {"x":0, "y":1}",
+        "question": "Which of the following is the correct statement about the statement below?\n\n z = {"x":0, "y":1}",
         "options": {
             "a": "x dictionary z is created",
             "b": "x and y are the keys of dictionary z",
@@ -462,7 +461,8 @@ PROBLEM_SETS = [
             "d": "error"
         },
         "answer": "b"
-  {
+    },
+    {
         "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
         "options": {
             "a": "1 2",
@@ -471,7 +471,8 @@ PROBLEM_SETS = [
             "d": " none of the mentioned"
         },
         "answer": "c"
-         {
+    },
+    {
          "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
         "options": {
             "a": "15.",
@@ -481,7 +482,7 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
+    {
         "question": "What will be the output of the following Python code?\n i = 1\n while True:\n  if i%3 == 0:\n break\n print(i)\n i + = 1",
         "options": {
             "a": "1 2",
@@ -490,7 +491,8 @@ PROBLEM_SETS = [
             "d": " none of the mentioned"
         },
         "answer": "c"
-         {
+    },
+    {
         "question": "What is the run time of the below code?\n\nfor i in range(n):\n\tj=1\nwhile(j<n):\n\nprint(i,j)\nj*=2",
         "options": {
             "a": "O(n)",
@@ -500,7 +502,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
-     {
+    {
          "question": "What will be the output of the following Python code?\n lamb = lambda x: x ** 3\n print(lamb(5))",
         "options": {
             "a": "15.",
@@ -510,5 +512,4 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-
 ]
