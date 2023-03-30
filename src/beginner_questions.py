@@ -572,4 +572,54 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
+    {
+        "question": "What is the output of print(2 + 2 * 3)?",
+        "options": {
+            "a": "6",
+            "b": "8",
+            "c": "12",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of print([1, 2, 3] + [4, 5, 6])?",
+        "options": {
+            "a": "[1, 2, 3, 4, 5, 6]",
+            "b": "[1, 4, 2, 5, 3, 6]",
+            "c": "[[1, 2, 3], [4, 5, 6]]",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of print(1 == \"1\")?",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of print(\"Hello, World!\"[1:5])?",
+        "options": {
+            "a": "ello",
+            "b": "Hell",
+            "c": "World",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of print(not True)?",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    }
 ]
