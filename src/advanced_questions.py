@@ -443,7 +443,7 @@ PROBLEM_SETS = [
          "answer": "a"
     },
     {
-        "question": "Which of the following is the correct statement about the statement below?\n\n z = {"x":0, "y":1}",
+        "question": "Which of the following is the correct statement about the statement below?\n\n z = {\"x\":0, \"y\":1}",
         "options": {
             "a": "x dictionary z is created",
             "b": "x and y are the keys of dictionary z",
@@ -513,7 +513,7 @@ PROBLEM_SETS = [
         "answer": "c"
     },
     {
-        "question": "What is the output of the following code snippet?\n\n def foo():\n print("Start")\n yield 1\n print("Middle")\n yield 2\n print("End")\n\n for i in foo():\n print(i)",
+        "question": "What is the output of the following code snippet?\n\n def foo():\n print(\"Start\")\n yield 1\n print(\"Middle\")\n yield 2\n print(\"End\")\n\n for i in foo():\n print(i)",
         "options": {
             "a": "Start Middle End",
             "b": "Start 1 Middle 2 End",
@@ -525,9 +525,9 @@ PROBLEM_SETS = [
     {
         "question": "What is the output of the following code?",
         "options": {
-            "a": ""42"",
-            "b": ""None"",
-            "c": "\"coroutine object at 0x...\"",
+            "a": "42",
+            "b": "None",
+            "c": "coroutine object at 0x...",
             "d": "Raises a TypeError exception."
         },
         "answer": "a"
@@ -545,7 +545,7 @@ PROBLEM_SETS = [
     {
         "question": "What is the output of the following code?\nimport asyncio\n\nasync def coro():\n await asyncio.sleep(1)\n return 42\n\nasync def main():\n result = await coro()\n print(result)\n\nloop = asyncio.get_event_loop()\nloop.run_until_complete(main())",
         "options": {
-            "a": ""42"",
+            "a": "42",
             "b": "\"None\"",
             "c": "\"coroutine object at 0x...\"",
             "d": "Raises a TypeError exception."
