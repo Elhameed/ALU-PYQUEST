@@ -94,7 +94,7 @@ user@User:~/$ PyQuest
 
 <h2 id="demo-video">Demo Video 🎥</h2> 
 
-You can find a demo of the game at the following link: [https://youtu.be/ym5cIpgxvMQ](https://youtu.be/ym5cIpgxvMQ){:target="_blank"}
+You can find a demo of the game at the following link: <a href="https://youtu.be/ym5cIpgxvMQ" target="_blank">https://youtu.be/ym5cIpgxvMQ</a>
 
 <h2 id="license">License 📄</h2> 
 
