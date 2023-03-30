@@ -89,8 +89,8 @@ user@User:~/$ PyQuest
 <div style="display: flex; flex-wrap: wrap;">
   <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot1.PNG" style="display: inline-block; width: 50%;" />
   <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot2.PNG" style="display: inline-block; width: 50%;" />
-  <img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot3.PNG" />
 </div>
+<img src="https://github.com/Elhameed/ALU-PYQUEST/blob/main/img/screenshot3.PNG" />
 
 <h2 id="demo-video">Demo Video 🎥</h2> 
 
