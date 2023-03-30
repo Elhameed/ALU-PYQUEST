@@ -805,7 +805,7 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     }
-{
+    {
         "question": "What does the join() method do in Python?",
         "options": {
             "a": "Concatenates two strings together.",
@@ -845,7 +845,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-     {
+    {
         "question": "What do these lines print?\nfor i in [1, 3, 4, 2]:\n\tprint(i, end=\"-\")",
         "options": {
             "a": "1 2 3 4",
@@ -865,7 +865,7 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
-     {
+    {
         "question": "Which of the following is correct?",
         "options": {
             "a": "defunct(a, b)",
