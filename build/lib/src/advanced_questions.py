@@ -529,5 +529,91 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
+    {
+        "question": "What is the run time of the following  code?\n\nx = [12, 34]\nprint(len(list(map(int, x))))\n",
+        "options": {
+            
+            "a": "2",
+           "b": "1",
+           "c": "error",
+           "d": "none of the mentioned"
+           },
+           "answer": "a"
+           },
+    {
+       "question": "What will be the output of the following Python code?\n\nx = [12.1, 34.0]\nprint(len(' '.join(list(map(str, x)))))\n",
 
+       "options": {
+           "a": "6",
+           "b": "8",
+           "c": "9",
+           "d": "none of the mentioned"
+       },
+       "answer": "c"
+   },
+    {
+       "question": "What will be the output of the following Python code?\n\nx = [12.1, 34.0]\nprint(' '.join(list(map(str, x))))\n",
+
+       "options": {
+           "a": "12 1 34 0",
+           "b": "12.1 34",
+           "c": "121 340",
+           "d": "12.1 34.0"
+       },
+       "answer": "d"
+   },
+    {
+       "question": "Which of the following statements create a dictionary?",
+       "options": {
+            "a": " d = {}",
+           "b": "d = {“john”:40, “peter”:45}",
+           "c": "d = {40:”john”, 45:”peter”}",
+           "d": "All of the above"
+       },
+       "answer": "d"
+   },
+   { 
+    "question": " Suppose d = {“john”:40, “peter”:45}, to delete the entry for “john” what command do we use?",
+
+       "options": {
+           "a": "d.delete(“john”:40)",
+           "b": "d.delete(“john”)",
+           "c": " del d[“john”]",
+           "d": "del d(“john”:40)"
+       },
+       "answer": "c"
+   },
+   {
+       "question": "What will be the output of the following Python code?\nd = {"john":40, "peter":45}\nprint(list(d.keys()))\n",
+
+       "options": {
+           "a": "[“john”, “peter”]",
+           "b": "[“john”:40, “peter”:45]",
+           "c": "(“john”, “peter”)",
+           "d": "(“john”:40, “peter”:45)"
+       },
+       "answer": "a"
+   },
+    {
+       "question": "What will be the output of the following Python code?\ndef f(x):\n\tyield x+1\ng=f(8)\nprint(next(g))\n",
+
+       "options": {
+           "a": "8",
+           "b": "9",
+           "c": "7",
+           "d": "error"
+       },
+       "answer": "b"
+   },
+    {
+       "question": "What will be the output of the following Python code?\ndef f(x):\n\tfor i in range(5):\n\tyield i\n\ng=f(8)\nprint(list(g))\n",
+
+       "options": {
+           "a": "[0, 1, 2, 3, 4]",
+           "b": " [1, 2, 3, 4, 5, 6, 7, 8]",
+           "c": "[1, 2, 3, 4, 5]",
+           "d": "[0, 1, 2, 3, 4, 5, 6, 7]"
+       },
+       "answer": "a"
+   },
 ]
