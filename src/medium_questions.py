@@ -884,7 +884,7 @@ PROBLEM_SETS = [
             "d": "Nothing"
         },
         "answer": "d"
-    }
+    },
     {
         "question": "What does the join() method do in Python?",
         "options": {
