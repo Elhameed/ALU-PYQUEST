@@ -472,4 +472,94 @@ PROBLEM_SETS = [
         },
         "answer": "d"
     },
+
+ {
+ {
+        "question": "Which of the following is used to define a block of code in Python language?",
+        "options": {
+            "a": "Indentation",
+            "b": "Key",
+            "c": "Brackets",
+            "d": "All of the mentioned"
+        },
+        "answer": "a"
+    },
+{
+        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "options": {
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What will be the output of the following Python code?\n\n>>> str1 = 'hello'\n>>> str2 = ','\n>>> str3 = 'world'\n>>> str1[-1:]",
+        "options": {
+            "a": "olleh",
+            "b": "hello",
+            "c": "h",
+            "d": "o"
+        },
+        "answer": "d"
+    },
+     {
+        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "options": {
+            "a": "they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Select the correct output of the following String operations\n\nstr1 = 'Welcome'\nprint (str1[:6] + ' John')",
+        "options": {
+            "a": "Welcome John",
+            "b": "WelcomJohn",
+            "c": "Welcom John",
+            "d": "None of the above"
+        },
+        "answer": "c"
+    },
+     {
+    "question": "Which of the following declarations is incorrect?",
+        "options": {
+            "a": "_x = 2",
+            "b": "__x = 3",
+            "c": "__xyz__ = 5",
+            "d": "None of these"
+        },
+        {
+        "question": "what will this line print?\n first_list = [1 2 3 4 5]\n print(len(first_list))",
+        "options": {
+            "a": "1",
+            "b": "5",
+            "c": "4",
+            "d": "syntax error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
+        "options": {
+            "a": "Age is between 18 and 26",
+            "b": "Age is between 18 and 25",
+            "c": "Syntax error",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+     {
+        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "options": {
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version"
+        },
+        "answer": "d"
+    },
 ]
