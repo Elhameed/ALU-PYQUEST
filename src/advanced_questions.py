@@ -512,4 +512,134 @@ PROBLEM_SETS = [
         },
         "answer": "c"
     },
+    {
+        "question": "What is the output of the following code snippet?\n\n def foo():\n print("Start")\n yield 1\n print("Middle")\n yield 2\n print("End")\n\n for i in foo():\n print(i)",
+        "options": {
+            "a": "Start Middle End",
+            "b": "Start 1 Middle 2 End",
+            "c": "Start 1 2 Middle End",
+            "d": "Start Middle 1 2 End"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": {
+            "a": ""42"",
+            "b": ""None"",
+            "c": "\"coroutine object at 0x...\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is a valid way to redirect standard output to a file in Python?",
+        "options": {
+            "a": "sys.stdout.write(\"Hello world\")",
+            "b": "sys.stderr.write(\"Hello world\")",
+            "c": "with open(\"output.txt\", \"w\") as f: f.write(\"Hello world\")",
+            "d": "print(\"Hello world\", file=open(\"output.txt\", \"w\"))"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What is the output of the following code?\nimport asyncio\n\nasync def coro():\n await asyncio.sleep(1)\n return 42\n\nasync def main():\n result = await coro()\n print(result)\n\nloop = asyncio.get_event_loop()\nloop.run_until_complete(main())",
+        "options": {
+            "a": ""42"",
+            "b": "\"None\"",
+            "c": "\"coroutine object at 0x...\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?",
+        "options": {
+            "a": "\"Something went wrong\"",
+            "b": "\"CustomException: Something went wrong\"",
+            "c": "\"Exception: Something went wrong\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\nimport subprocess\n\ntry:\n output = subprocess.check_output([\"echo\", \"Hello world\"])\n print(output)\nexcept subprocess.CalledProcessError:\n print(\"Command failed\")\n",
+        "options": {
+            "a": "\"Hello world\n\"",
+            "b": "\"Hello world\"",
+            "c": "\"Command failed\"",
+            "d": "Raises a TypeError exception."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the output of the following code?\n\nimport asyncio\n\nasync def coro():\n print('coro started')\n await asyncio.sleep(1)\n print('coro ended')\n\nloop = asyncio.get_event_loop()\nloop.run_until_complete(coro())",
+        "options": {
+            "a": "'coro started', followed by 'coro ended' after 1 second.",
+            "b": "'coro started', followed by 'coro ended' immediately.",
+            "c": "'coro ended', followed by 'coro started' after 1 second.",
+            "d": "'coro ended', followed by 'coro started' immediately."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is a valid way to write test cases for a REST API using Python's unittest module?",
+        "options": {
+            "a": "Use the requests module to send HTTP requests and check the responses.",
+            "b": "Use the unittest.mock module to mock the API responses and test the behavior of the code.",
+            "c": "Use the unittest.TestCase.assert*() methods to check the results of API calls.",
+            "d": "Use the unittest.skip() decorator to skip tests that require a running server."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is a correct statement about Python's garbage collection system?",
+        "options": {
+            "a": "Python uses reference counting to keep track of object lifetimes.",
+            "b": "Python's garbage collector runs in a separate thread to avoid blocking the main thread.",
+            "c": "Python's garbage collector uses a generational algorithm to optimize memory usage.",
+            "d": "Python's garbage collector only runs when the system is low on memory."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is a valid way to serialize and deserialize complex data structures using Python's pickle module?",
+        "options": {
+            "a": "pickle.dumps(data, protocol=pickle.HIGHEST_PROTOCOL)",
+            "b": "pickle.dump(data, file)",
+            "c": "pickle.loads(data)",
+            "d": "pickle.load(file)"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following is a difference between multiprocessing and threading in Python?",
+        "options": {
+            "a": "multiprocessing can run multiple processes on different CPUs, while threading can only run on a single CPU.",
+            "b": "multiprocessing is more memory-efficient than threading.",
+            "c": "multiprocessing uses more memory than threading.",
+            "d": "threading is more CPU-efficient than multiprocessing."
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is a valid way to execute a shell command asynchronously in Python?",
+        "options": {
+            "a": "os.system(\"ls -l\")",
+            "b": "subprocess.call(\"ls -l\", shell=True)",
+            "c": "subprocess.Popen(\"ls -l\", shell=True)",
+            "d": "os.execvp(\"ls\", [\"-l\"])"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "Which of the following is a valid way to create a custom exception in Python?",
+        "options": {
+            "a": "class CustomException(BaseException): pass",
+            "b": "class CustomException(Exception): pass",
+            "c": "class CustomException(RuntimeError): pass",
+            "d": "class CustomException(ValueError): pass"
+        },
+        "answer": "b"
+    }
 ]
