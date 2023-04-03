@@ -62,14 +62,6 @@ PyQuest
 
 That's it! You're all set to play ALU-PyQuest 🎉.
 
-<h2 id="updating-alu-pyquest">Updating ALU-PyQuest 🔄</h2>
-
-To update ALU-PYQUEST to the latest version, you can run the following command in your terminal or command prompt:
-```sh
-pip install --upgrade ALU-PYQUEST
-```
-This will update your installation of ALU-PYQUEST to the latest version available on PyPI.
-
 <h2 id="how-to-play">How To Play 🎮</h2> 
 
 1. Open the command prompt or terminal on your computer.
@@ -83,6 +75,14 @@ user@User:~/$ PyQuest
 7. For each incorrect answer or if you run out of time, `5` points will be deducted from your score.
 8. At the end of the game, you will see your total score.
 9. You will also be provided with the option to view your high scores.
+
+<h2 id="updating-alu-pyquest">Updating ALU-PyQuest 🔄</h2>
+
+To update ALU-PYQUEST to the latest version, you can run the following command in your terminal or command prompt:
+```sh
+pip install --upgrade ALU-PYQUEST
+```
+This will update your installation of ALU-PYQUEST to the latest version available on PyPI.
 
 <h2 id="screenshots">Screenshots 📷</h2> 
 
