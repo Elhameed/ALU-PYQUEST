@@ -80,7 +80,7 @@ user@User:~/$ PyQuest
 
 To update ALU-PYQUEST to the latest version, you can run the following command in your terminal or command prompt:
 ```sh
-pip install --upgrade ALU-PYQUEST
+pip install --upgrade ALU-PyQuest
 ```
 This will update your installation of ALU-PYQUEST to the latest version available on PyPI.
 
